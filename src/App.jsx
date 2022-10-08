@@ -1,9 +1,13 @@
+import { useState } from "react";
+
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="App">
-      <p className="">Test</p>
+    <div className={`${ darkMode && "dark"}`}>
+          
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
