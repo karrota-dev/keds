@@ -67,6 +67,52 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Savings Tips / Home */}
+        <div className="">
+          <div className="container mx-auto">
+            <h1 className="p-2 text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
+          </div>
+          <div className="grid grid-cols-3 container mx-auto">
+            {/* Col 1 */}
+            <div className="p-2 w-96">
+              <div className="">
+                <h2 className="text-[5rem] font-bold text-accent">Shtëpi</h2>
+              </div>
+            </div>
+            {/* Col 2 */}
+            <div className="p-2 w-96 grid content-end">
+              <div className="h-44">
+              </div>
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
+                <p className="dark:text-white">Programojeni temperaturën e hapësirave tuaja sipas kohës së caktuar, duke pasur parasysh edhe tarifat ditë-natë (pas orës 22:00 energjia elektrike është më e lirë).</p>
+              </div>
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
+                <p className="dark:text-white">Për shembull, ju mund të provoni gjatë ditës të ndalni ngrohjen për dy orë, sidomos gjatë kohës kur energjia elektrike konsumohet më së shumti (17:00-20:00). Fikja e ngrohjes për dy orë nuk do të ndikojë aq shumë në uljen e temperaturës së dhomës, porse nga ana e kursimit do të lehtësojë ngarkesën e sistemit.</p>
+              </div>
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
+                <p className="dark:text-white">Vendoseni termostatin në atë që parashihet të jetë temperaturë e rehatshme e dhomës gjatë dimrit: nga 18-21 gradë.</p>
+              </div>
+            </div>
+            {/* Col 3 */}
+            <div className="p-2 w-96 grid content-start">
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
+                <p className="dark:text-white">Mbajini dyert e dhomës ose të zyrës suaj sa më shumë mbyllur për të ruajtur nxehtësinë.</p>
+              </div>
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
+                <p className="dark:text-white">Para se të flini, zvogëlojeni temperaturën e termostatit, sepse është më e shëndetshme dhe do të kurseni energji elektrike.</p>
+              </div>
+              <div className="">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
+                <p className="dark:text-white">Ndaleni ngrohjen në ambientet ku nuk qëndroni gjatë (dhomë të gjumit, korridore, banjo).</p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Light Switch */}
         <div className="bottom-0 sticky">
           <div className="w-72 flex flex-row justify-start items-center bg-white bg-opacity-90 bg-clip-border rounded-3xl navbar">
