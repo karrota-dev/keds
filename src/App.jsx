@@ -19,8 +19,8 @@ import mailIcon from './assets/mail-icon.png';
 import locationIcon from './assets/location-icon.png';
 import clickIcon from './assets/click-icon.png';
 
-import ad from './assets/ad.png';
-import adDark from './assets/ad-dark.png';
+import ad from './assets/ad.jpg';
+import adDark from './assets/ad-dark.jpg';
 
 import OutletIllustration from './assets/outlet-illustration.png';
 import PuzzleIllustration from './assets/puzzle-illustration.png';
@@ -33,7 +33,11 @@ import CookingIllustration from './assets/cooking-illustration.png';
 
 import vidOne from './assets/vid-one.png';
 
-import videoOne from './assets/img-1.jpg';
+import videoOne from './assets/img-1.png';
+import videoTwo from './assets/img-2.png';
+
+import vidOneIllustartion from './assets/vid-one-illustration.png';
+import vidTwoIllustartion from './assets/vid-two-illustration.png';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -459,13 +463,16 @@ function App() {
         </div>
         <img src={RadiatorIllustration} alt="" />
         {/* Video One */}
-        <div className="py-16 vid-one h-screen flex flex-row justify-center items-center">
+        <div className="py-16 vid-one h-screen flex flex-col justify-center items-center">
           <div className="container mx-auto flex flex-row justify-center items-center content-center p-5 lg:p-0">
             <div className="flex flex-row justify-center items-center justify-items-center itemsce">
               <a href="https://youtube.com" className="">
                 <img src={videoOne} alt="Video One" />
               </a>
             </div>
+          </div>
+          <div className="flex md:hidden">
+            <img src={vidTwoIllustartion} alt="Video One" />
           </div>
         </div>
         {/* Hotel */}
@@ -490,7 +497,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Hoteleria ofron një mundësi të jashtëzakonshme për ulje të konsumit, nëse veprohet me hapa konkret dhe të vazhdueshëm drejt ruajtjes të energjisë. Disa nga këta hapa janë:</p>
                   </div>
                 </div>
@@ -554,7 +561,7 @@ function App() {
               </div>
               <div className="">
                 <div className="">
-                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                   <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Dyqanet e mëdha me shumëllojshmëri dritash dekoruese, reklama të shumta, klima dhe pajisje tjera, konsumojnë mjaft shumë energji, që mund të kursehet shumë lehtë, nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
                 </div>
               </div>
@@ -611,7 +618,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Ndër shpenzuesit më të mëdhenj të energjisë elektrike në restorante është përgatitja e ushqimit, ftohja dhe ngrohja e ambientit. Ne mund të veprojmë me hapa të vegjël SOT, që të ndihmojmë sadopak në përmirësimin e gjendjes elektroenergjetike të vendit, për muajt e vështirë që do të vijnë me ftohjen e motit. Filloni t'i aplikoni këto ndryshime në rutinën tuaj ditore:</p>
                   </div>
                 </div>
@@ -662,13 +669,16 @@ function App() {
         </div>
         <img className="" src={ForkIllustration} alt="" />
         {/* Video Two */}
-        <div className="py-16 vid-two h-screen flex flex-row justify-center items-center">
+        <div className="py-16 vid-two h-screen flex flex-col justify-center items-center">
           <div className="container mx-auto flex flex-row justify-center items-center content-center p-5 lg:p-0">
             <div className="flex flex-row justify-center items-center justify-items-center itemsce">
               <a href="https://youtube.com" className="">
-                <img src={videoOne} alt="Video One" />
+                <img src={videoTwo} alt="Video One" />
               </a>
             </div>
+          </div>
+          <div className="flex md:hidden">
+            <img src={vidOneIllustartion} alt="Video One" />
           </div>
         </div>
         {/* Institutions */}
@@ -683,7 +693,7 @@ function App() {
                 <h2 className="text-[5rem] font-bold text-accent leading-tight pl-48">Kompanitë dhe <br/>Institucionet</h2>
               </div> */}
               <div className="">
-                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pl-28">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                 <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Aq sa është e rëndësishme të kemi furnizim me energji elektrike po aq jetik është edhe kursimi i energjisë elektrike. <br/><br/>Për kursim sa më të madh të energisë elektrike, ndihmesë të madhe paraqet bashkëpunimi me të gjitha institucionet publike, kompanitë private, bankat, hotelieritë dhe të gjitha kategoritë tjera. <br/><br/>Që kursimi i energjisë elektrike të jetë sa më lehtë i aplikueshëm dhe praktik, ne kemi disa rekomandime nga ekspertët tanë.</p>
               </div>
             </div>
@@ -736,7 +746,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Amvisëria si një ndër shpenzuesit më të mëdhenj të energjisë elektrike mund të kontribuojë shumë në uljen e konsumit, sidomos aty ku ka mundësi të madhe të kursimit. Nëse çdo konsumator kursen energji elektrike për vete dhe familjen e tij, ne në fakt jemi duke kursyer energji edhe për konsumatorët e grupeve të ndjeshme, të cilëve mund të ju nevojitet energjia elektrike më shumë se kurrë. Sipas ekspertëve të KEDS, këto janë disa nga masat që konsumatorët shtëpiak duhet t’i ndërmarrin për ta kursyer energjinë elektrike: Ditëve në vijim do ju përcjellim udhëzime për kursim edhe për kategori kategori të tjera!</p>
                   </div>
                 </div>
@@ -807,7 +817,7 @@ function App() {
             {/* Col 1 */}
             <div className="">
               <div className="">
-                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pl-28">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
               </div>
               <div className="px-5 xl:pl-48">
                 <div className="">
@@ -868,7 +878,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Me teknikat e duhura të kursimit të energjisë, sektori industrial që përdor një sasi të madhe të energjisë së ofruar në botë, mund të kursejë energji elektrike nëse aplikohen shembujt si më poshtë:</p>
                   </div>
                 </div>
