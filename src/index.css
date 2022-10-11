@@ -67,6 +67,12 @@ body {
     background-position: center;
 }
 
+.vid-one {
+    background-image: url('./assets/vid-one.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (max-width: 479px) {
     .home {
         background:none;

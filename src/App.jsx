@@ -31,6 +31,8 @@ import LightIllustration from './assets/light-illustration.png';
 import RadiatorIllustration from './assets/radiator-illustration.png';
 import CookingIllustration from './assets/cooking-illustration.png';
 
+import vidOne from './assets/vid-one.png';
+
 import videoOne from './assets/img-1.jpg';
 
 function App() {
@@ -174,7 +176,7 @@ function App() {
           <h1 className="p-2 text-5xl flex flex-col items-center md:text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
         </div>
         {/* Home */}
-        <div ref={homeRef} className="home">
+        <div ref={homeRef} className="home pt-20">
           
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
             {/* Col 1 */}
@@ -457,7 +459,7 @@ function App() {
         </div>
         <img src={RadiatorIllustration} alt="" />
         {/* Video One */}
-        <div className="py-20 vid">
+        <div className="py-16 vid-one h-screen">
           <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
             <div className="flex justify-end items-center">
                 <img src={videoOne} alt="Video One" />
@@ -468,7 +470,7 @@ function App() {
           </div>
         </div>
         {/* Hotel */}
-        <div ref={hotelRef} className="py-20 hotel">
+        <div ref={hotelRef} className="py-16 hotel">
           {/* <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-center xl:text-right  text-accent">Sektori i <br/>Hotelerisë</h2>
           </div>
@@ -490,11 +492,11 @@ function App() {
                 <div className="">
                   <div className="">
                     <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
-                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Dyqanet e mëdha me shumëllojshmëri dritash dekoruese, reklama të shumta, klima dhe pajisje tjera, konsumojnë mjaft shumë energji, që mund të kursehet shumë lehtë, nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
+                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Hoteleria ofron një mundësi të jashtëzakonshme për ulje të konsumit, nëse veprohet me hapa konkret dhe të vazhdueshëm drejt ruajtjes të energjisë. Disa nga këta hapa janë:</p>
                   </div>
                 </div>
               </div>
-              <div className="px-5 mx-auto">
+              <div className="px-5 md:p-0 mx-auto">
                 <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white">Në përputhje me rrethanat, shmangni ndriçimin elektrik dhe përdorni atë natyral.</p>
@@ -544,7 +546,7 @@ function App() {
         </div>
         <img src={LineIllustration} alt="" />
         {/* Malls */}
-        <div ref={mallRef} className="py-20 mall">
+        <div ref={mallRef} className="py-16 mall">
           <div className="grid grid-cols-1 xl:grid-cols-3">
             {/* Col 1 */}
             <div className="">
@@ -597,7 +599,7 @@ function App() {
         </div>
         <img src={BulbIllustration} alt="" />
         {/* Gastronomy */}
-        <div ref={gastronomyRef} className="py-20 gastronomy">
+        <div ref={gastronomyRef} className="py-16 gastronomy">
           {/* <div className="flex justify-end container mx-auto">
             <h2 className="text-[5rem] font-bold text-accent">Gastronomia</h2>
           </div> */}
@@ -611,14 +613,14 @@ function App() {
                 <div className="">
                   <div className="">
                     <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
-                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Dyqanet e mëdha me shumëllojshmëri dritash dekoruese, reklama të shumta, klima dhe pajisje tjera, konsumojnë mjaft shumë energji, që mund të kursehet shumë lehtë, nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
+                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Ndër shpenzuesit më të mëdhenj të energjisë elektrike në restorante është përgatitja e ushqimit, ftohja dhe ngrohja e ambientit. Ne mund të veprojmë me hapa të vegjël SOT, që të ndihmojmë sadopak në përmirësimin e gjendjes elektroenergjetike të vendit, për muajt e vështirë që do të vijnë me ftohjen e motit. Filloni t'i aplikoni këto ndryshime në rutinën tuaj ditore:</p>
                   </div>
                 </div>
               </div>
-              <div className="px-5 mx-auto">
+              <div className="px-5 md:p-0 mx-auto">
                 <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                  <p className="dark:text-white">Në përputhje me rrethanat, shmangni ndriçimin elektrik dhe përdorni atë natyral.</p>
+                  <p className="dark:text-white">Fikni disa nga poçat dekorues, që nuk do të ndikonin në uljen e ndriçimit të nevojshëm të ambientit.</p>
                 </div>
                  
               </div>
@@ -630,34 +632,38 @@ function App() {
               </div> */}
               <div className="w-auto xl:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                <p className="dark:text-white">Sipas mundësisë shmangni ndriçimin dekorativ dhe përdorni vetëm ndriçimin e nevojshëm për hapësirën tuaj.</p>
+                <p className="dark:text-white">Gjatë natës mos harroni ta fikni ndriçimin dhe të gjitha pajsijet e tjera shpenzuese.</p>
               </div> 
+              <div className="w-auto xl:w-96 mx-auto">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
+                <p className="dark:text-white">Nëse nuk keni alternativë të ngrohjes (përpos me energji elektrike) për ditët e ftohta, akordoni temostatin në atë mënyrë që ambienti të jetë i rehatshëm, por jo i ftohtë. Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 19 gradë.</p>
+              </div>
               <div className="w-auto xl:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white">Akordoni termostatin e kondicionerit në 24 gradë celcius, që konsiderohet të jetë temperaturë efiçiente.</p>
-              </div>
-              <div className="w-auto xl:w-96 mx-auto">
-                <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white">Gjatë ditës ndalni ngrohjen tërësisht për disa orë. Kjo nuk do të ndikoj aq shumë në ndryshimin e temperaturës së rehatshme të hapësirave, por kursimi në anën tjetër do të jetë i madh.</p>
               </div>
               
             </div>
             <div className="grid content-start xl:grid-rows-3">
               <div className="hidden md:flex"></div>
               <div className="px-5 xl:pr-48">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
+                <p className="dark:text-white">Gjatë ditës ndalni ngrohjen tërësisht për disa orë. Kjo nuk do të ndikoj aq shumë në ndryshimin e temperaturës së rehatshme të hapësirave, por kursimi në anën tjetër do të jetë i madh.</p>
+              </div>
+              <div className="px-5 xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white">Parandaloni ngrohjen e hapësirave të caktuara, aty ku nuk ka nevojë, duke vendosur në kaldajën qendrore një ndërprerës kohor (wifi, digjital apo mekanik).</p>
               </div>
               <div className="px-5 xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
-                <p className="dark:text-white">Ndërsa si masa afatgjate, ju mund t’i: <br/><br/>- Zëvendësoni poçat tradicional me ata efiçient <br/>- Zëvendësoni pajisjet elektrike jo-efiçente me pajisje efiçiente, etj.</p>
+                <p className="dark:text-white">Ndërsa si masa afatgjate, ju mund t’i: - Zëvendësoni poçat tradicional me ata efiçient - Zëvendësoni pajisjet elektrike jo-efiçente me pajisje efiçiente, etj.</p>
               </div>
             </div>
           </div>
         </div>
         <img className="" src={ForkIllustration} alt="" />
         {/* Video Two */}
-        <div className="py-20 vid-two">
+        <div className="py-16 vid-two">
           <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
             <div className="">
                       
@@ -668,7 +674,7 @@ function App() {
           </div>
         </div>
         {/* Institutions */}
-        <div ref={institutionRef} className="py-20 institution">
+        <div ref={institutionRef} className="py-16 institution">
           <div className="xl:pl-48">
             <h2 className="text-5xl flex justify-center xl:justify-start xl:text-[5rem] text-center md:text-left font-bold text-accent">Kompanitë dhe <br/>Institucionet</h2>
           </div> 
@@ -711,7 +717,7 @@ function App() {
         </div>
         <img className="" src={PuzzleIllustration} alt="" />
         {/* HouseKeeping */}
-        <div ref={housekeepingRef} className="py-20 housekeeping">
+        <div ref={housekeepingRef} className="py-16 housekeeping">
           {/* <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-left xl:text-right  text-accent">Amviseria</h2>
           </div>
@@ -733,14 +739,14 @@ function App() {
                 <div className="">
                   <div className="">
                     <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
-                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Dyqanet e mëdha me shumëllojshmëri dritash dekoruese, reklama të shumta, klima dhe pajisje tjera, konsumojnë mjaft shumë energji, që mund të kursehet shumë lehtë, nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
+                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Amvisëria si një ndër shpenzuesit më të mëdhenj të energjisë elektrike mund të kontribuojë shumë në uljen e konsumit, sidomos aty ku ka mundësi të madhe të kursimit. Nëse çdo konsumator kursen energji elektrike për vete dhe familjen e tij, ne në fakt jemi duke kursyer energji edhe për konsumatorët e grupeve të ndjeshme, të cilëve mund të ju nevojitet energjia elektrike më shumë se kurrë. Sipas ekspertëve të KEDS, këto janë disa nga masat që konsumatorët shtëpiak duhet t’i ndërmarrin për ta kursyer energjinë elektrike: Ditëve në vijim do ju përcjellim udhëzime për kursim edhe për kategori kategori të tjera!</p>
                   </div>
                 </div>
               </div>
-              <div className="px-5 mx-auto">
+              <div className="px-5 md:p-0 mx-auto">
                 <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                  <p className="dark:text-white">Në përputhje me rrethanat, shmangni ndriçimin elektrik dhe përdorni atë natyral.</p>
+                  <p className="dark:text-white">Në objektet banesore ku është e pamundur një gjë e tillë, kalimi në ngrohës efiçent si dhe menaxhimi më i mirë i hapësirave të ngrohjes. </p>
                 </div>
                 {/* <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
@@ -752,7 +758,7 @@ function App() {
             <div className="grid px-5 w-auto xl:w-96 mx-auto">
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                  <p className="dark:text-white">Sipas mundësisë shmangni ndriçimin dekorativ dhe përdorni vetëm ndriçimin e nevojshëm për hapësirën tuaj.</p>
+                  <p className="dark:text-white">Në objektet banesore ku është e pamundur një gjë e tillë, kalimi në ngrohës efiçent si dhe menaxhimi më i mirë i hapësirave të ngrohjes. Amvisëria si një ndër shpenzuesit më të mëdhenj të energjisë elektrike mund të kontribuojë shumë në uljen e konsumit, sidomos aty ku ka mundësi të madhe të kursimit. Nëse çdo konsumator kursen energji elektrike për vete dhe familjen e tij, ne në fakt jemi duke kursyer energji edhe për konsumatorët e grupeve të ndjeshme, të cilëve mund të ju nevojitet energjia elektrike më shumë se kurrë. Sipas ekspertëve të KEDS, këto janë disa nga masat që konsumatorët shtëpiak duhet t’i ndërmarrin për ta kursyer energjinë elektrike: Ditëve në vijim do ju përcjellim udhëzime për kursim edhe për kategori kategori të tjera!</p>
                 </div> 
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
@@ -786,7 +792,7 @@ function App() {
         </div>
         <img src={CookingIllustration} alt="" />
         {/* Ad */}
-        <div className="mx-auto py-20 flex justify-center">
+        <div className="mx-auto py-16 flex justify-center">
           {
             darkMode ?
               <img src={adDark} alt="" />
@@ -843,7 +849,7 @@ function App() {
         </div>
         <img src={LightIllustration} alt="" />
         {/* Industries */}
-        <div ref={industryRef} className="py-20 industry">
+        <div ref={industryRef} className="py-16 industry">
           {/* <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-left xl:text-right  text-accent">Amviseria</h2>
           </div>
@@ -865,14 +871,14 @@ function App() {
                 <div className="">
                   <div className="">
                     <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 p-0 xl:pl">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
-                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Dyqanet e mëdha me shumëllojshmëri dritash dekoruese, reklama të shumta, klima dhe pajisje tjera, konsumojnë mjaft shumë energji, që mund të kursehet shumë lehtë, nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
+                    <p className="px-5 xl:pl-48 py-5 text-left text-lg text-secondary">Me teknikat e duhura të kursimit të energjisë, sektori industrial që përdor një sasi të madhe të energjisë së ofruar në botë, mund të kursejë energji elektrike nëse aplikohen shembujt si më poshtë:</p>
                   </div>
                 </div>
               </div>
-              <div className="px-5 mx-auto">
+              <div className="md:p-0 px-5 mx-auto">
                 <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                  <p className="dark:text-white">Në përputhje me rrethanat, shmangni ndriçimin elektrik dhe përdorni atë natyral.</p>
+                  <p className="dark:text-white">Pastrimi i rregullt dhe mirëmbajtja e planifikuar e makinerive optimizon performancën dhe jetëgjatësinë e këtyre makinerive dhe mund të përkthehet në kursime të mëdha të energjisë</p>
                 </div>
                 {/* <div className="w-auto mx-auto md:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
@@ -884,15 +890,15 @@ function App() {
             <div className="grid px-5 w-auto xl:w-96 mx-auto">
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                  <p className="dark:text-white">Sipas mundësisë shmangni ndriçimin dekorativ dhe përdorni vetëm ndriçimin e nevojshëm për hapësirën tuaj.</p>
+                  <p className="dark:text-white">Një mënyrë tjetër e thjeshtë është të siguroheni që të gjitha makineritë dhe pajisjet të fiken kur nuk përdoren. Përdorimi i pajisjeve vetëm kur ju nevojiten, mund të rezultojë në kursime të konsiderueshme të kostos së energjisë elektrike;</p>
                 </div> 
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
-                  <p className="dark:text-white">Ndaleni për së paku dy orë ngrohjen me energji elektrike gjatë ditës</p>
+                  <p className="dark:text-white">Sistemet e ftohjes mund të shpenzojnë mjaft shumë energji elektrike, andaj duhet të siguroheni që kondicioneri juaj të aranzhohet në opsion optimal dhe jo më shumë se që është e nevojshme</p>
                 </div>
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                  <p className="dark:text-white">Ndaleni ngrohjen në ambientet ku nuk qëndroni gjatë (dhomë të gjumit, korridore, banjo)</p>
+                  <p className="dark:text-white">Dhoma e mbyllur siç duhet ndihmon kondicionerin të përdorë më pak energji</p>
                 </div>
                 {/* <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
@@ -902,16 +908,16 @@ function App() {
             <div className="grid content-start">
               <div className="w-96 px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white">Kujdesi në ngrohësin e ujit (bojlerin) dhe kohën kur ai përdoret. Preferohet të ngrohet gjatë natës, me tarifë të ulët, apo gjatë ditës vetem kur është i nevojshëm përdorimi i ujit të ngrohtë. Potencialisht zëvendësimi i tij me ngrohës diellor.</p>
+                <p className="dark:text-white">Zëvendësimi i një motori të vjetër me fuqi të lartë, me një motor me fuqi më të ulët dhe efikas është një mënyrë e shkëlqyer për të ulur kostot. Ka shumë industri që përdorin motorë të vjetër, të cilët duhet të zëvendësohen në mënyrë që të kursehet sa më shumë energji elektrike.</p>
               </div>
               <div className="w-96 px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
-                <p className="dark:text-white">Përdorimi i pajisjeve elektro-shtëpiake në kohën kur energjia është më e lirë (pas ores 10).</p>
+                <p className="dark:text-white">Zëvendësimin i poçave tradicional me poça LED me fuqi të ulët</p>
               </div>
               <div className="h-16 hidden xl:flex"></div>
               <div className="w-96 px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
-                <p className="dark:text-white">Ndalja e furnizimit pajisjeve që nuk ka nevojë të përdoren në kohë të caktuara, duke filluar nga dritat.</p>
+                <p className="dark:text-white">Kontrollimi i ndriçimit përmes sensorëve të lëvizjes (tualete dhe zona të tjera që nuk përdoren tërë kohën. <br/><br/>#industri #këshillakursimi</p>
               </div>
             </div>
           </div>
