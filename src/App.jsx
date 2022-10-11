@@ -95,9 +95,16 @@ function App() {
                 <button onClick={() => setNavOpen(!isNavOpen)}>
                   <h4 className="flex justify-center items-center text-xl font-semibold hover:text-accent dark:hover:text-accent cursor-pointer dark:text-white">
                     Këshilla Kursimi 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="w-6 h-6 p-1 hover:text-accent dark:hover:text-accent dark:text-white">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                    </svg>
+                    {
+                      isNavOpen ?
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 p-1 hover:text-accent dark:hover:text-accent">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      :
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="w-6 h-6 p-1 hover:text-accent dark:hover:text-accent">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    }
                   </h4>
                 </button>
 
@@ -176,7 +183,7 @@ function App() {
         </div>
         {/* Savings Tips */}
         <div className="container mx-auto py-5">
-          <h1 className="p-2 text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
+          <h1 className="p-2 text-5xl flex flex-col items-center md:text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
         </div>
         {/* Home */}
         <div ref={homeRef} className="py-20">
@@ -192,7 +199,8 @@ function App() {
                 {/* Col 1 */}
                 <div className="pr-5">
                   <p className="text-accent flex justify-center py-2 md:justify-end ">Si të kursejmë energji nga:</p>
-                  <h2 
+                  <div className="pr-28 md:pr-5">
+                    <h2 
                     onClick={() => {
                       setNgrohjaOpen(true),
                       setBojleriOpen(false),
@@ -202,56 +210,57 @@ function App() {
                       setPajisjeOpen(false)
                     }}
                     className={`cursor-pointer text-xl font-bold  dark:text-white flex justify-end py-2 pl-10 ${isNgrohjaOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>NGROHJA</h2>
-                  <h2
-                    onClick={() => {
-                      setNgrohjaOpen(false),
-                      setBojleriOpen(true),
-                      setGatimiOpen(false),
-                      setFrigoriferiOpen(false),
-                      setKondicioneriOpen(false),
-                      setPajisjeOpen(false)
-                    }}
-                    className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isBojleriOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>BOJLERI</h2>
-                  <h2
-                    onClick={() => {
-                      setNgrohjaOpen(false),
-                      setBojleriOpen(false),
-                      setGatimiOpen(true),
-                      setFrigoriferiOpen(false),
-                      setKondicioneriOpen(false),
-                      setPajisjeOpen(false)
-                    }} 
-                    className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isGatimiOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>GATIMI</h2>
-                  <h2
-                    onClick={() => {
-                      setNgrohjaOpen(false),
-                      setBojleriOpen(false),
-                      setGatimiOpen(false),
-                      setFrigoriferiOpen(true),
-                      setKondicioneriOpen(false),
-                      setPajisjeOpen(false)
-                    }} 
-                    className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isFrigoriferiOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>FRIGORIFERI</h2>
-                  <h2 
-                    onClick={() => {
-                      setNgrohjaOpen(false),
-                      setBojleriOpen(false),
-                      setGatimiOpen(false),
-                      setFrigoriferiOpen(false),
-                      setKondicioneriOpen(true),
-                      setPajisjeOpen(false)
-                    }}
-                    className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isKondicioneriOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>KONDICIONERI</h2>
-                  <h2
-                    onClick={() => {
-                      setNgrohjaOpen(false),
-                      setBojleriOpen(false),
-                      setGatimiOpen(false),
-                      setFrigoriferiOpen(false),
-                      setKondicioneriOpen(false),
-                      setPajisjeOpen(true)
-                    }} 
-                    className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isPajisjeOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>PAJISJET TJERA</h2>
+                    <h2
+                      onClick={() => {
+                        setNgrohjaOpen(false),
+                        setBojleriOpen(true),
+                        setGatimiOpen(false),
+                        setFrigoriferiOpen(false),
+                        setKondicioneriOpen(false),
+                        setPajisjeOpen(false)
+                      }}
+                      className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isBojleriOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>BOJLERI</h2>
+                    <h2
+                      onClick={() => {
+                        setNgrohjaOpen(false),
+                        setBojleriOpen(false),
+                        setGatimiOpen(true),
+                        setFrigoriferiOpen(false),
+                        setKondicioneriOpen(false),
+                        setPajisjeOpen(false)
+                      }} 
+                      className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isGatimiOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>GATIMI</h2>
+                    <h2
+                      onClick={() => {
+                        setNgrohjaOpen(false),
+                        setBojleriOpen(false),
+                        setGatimiOpen(false),
+                        setFrigoriferiOpen(true),
+                        setKondicioneriOpen(false),
+                        setPajisjeOpen(false)
+                      }} 
+                      className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isFrigoriferiOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>FRIGORIFERI</h2>
+                    <h2 
+                      onClick={() => {
+                        setNgrohjaOpen(false),
+                        setBojleriOpen(false),
+                        setGatimiOpen(false),
+                        setFrigoriferiOpen(false),
+                        setKondicioneriOpen(true),
+                        setPajisjeOpen(false)
+                      }}
+                      className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isKondicioneriOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>KONDICIONERI</h2>
+                    <h2
+                      onClick={() => {
+                        setNgrohjaOpen(false),
+                        setBojleriOpen(false),
+                        setGatimiOpen(false),
+                        setFrigoriferiOpen(false),
+                        setKondicioneriOpen(false),
+                        setPajisjeOpen(true)
+                      }} 
+                      className={`cursor-pointer text-xl font-bold dark:text-white flex justify-end py-2 pl-10 ${isPajisjeOpen ? 'border-accent border-b-4' : 'border-b-2 border-secondary dark:border-white'}`}>PAJISJET TJERA</h2>
+                  </div>
                 </div>
                 {/* Col 2 */}
                 <div className="py-2 px-5 md:px-0">
@@ -308,13 +317,13 @@ function App() {
         {/* Hotel */}
         <div ref={hotelRef} className=" py-20">
           <div className="flex justify-center xl:justify-end xl:pr-48">
-            <h2 className="text-5xl xl:text-[5rem] font-bold text-left xl:text-right  text-accent">Sektori i <br/>Hotelerisë</h2>
+            <h2 className="text-5xl xl:text-[5rem] font-bold text-center xl:text-right  text-accent">Sektori i <br/>Hotelerisë</h2>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-3">
                 <div className=""></div>
                 <div className=""></div>
                 <div className="order-1">
-                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pr-20">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-start py-5 xl:pr-20">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                   <p className="xl:pr-48 py-5 px-5 xl:text-right flex justify-center text-lg text-secondary">Hoteleria ofron një mundësi të jashtëzakonshme për ulje të konsumit, nëse veprohet me hapa konkret dhe të vazhdueshëm drejt ruajtjes të energjisë. <br/>Disa nga këta hapa janë:</p>
                 </div>
           </div>
@@ -466,7 +475,7 @@ function App() {
             </div>
             <div className="grid  xl:grid-rows-3">
               <div className="hidden md:flex"></div>
-              <div className="px-10 xl:pr-48">
+              <div className="px-5 xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white">Ndërsa si masa afatgjate, ju mund t’i: <br/><br/>- Zëvendësoni poçat tradicional me ata efiçient <br/>- Zëvendësoni pajisjet elektrike jo-efiçente me pajisje efiçiente, etj.</p>
               </div>
@@ -479,7 +488,7 @@ function App() {
             <div className="">
                       
             </div>
-            <div className="flex justify-end items-center">
+            <div className="flex justify-start items-center">
                 <img src={videoOne} alt="Video One" />
             </div>
           </div>
@@ -487,7 +496,7 @@ function App() {
         {/* Institutions */}
         <div ref={institutionRef} className=" py-20">
           <div className="xl:pl-48">
-            <h2 className="text-5xl flex justify-center xl:justify-start xl:text-[5rem] font-bold text-accent">Kompanitë dhe <br/>Institucionet</h2>
+            <h2 className="text-5xl flex justify-center xl:justify-start xl:text-[5rem] text-center md:text-left font-bold text-accent">Kompanitë dhe <br/>Institucionet</h2>
           </div> 
           <div className="grid grid-cols-1 xl:grid-cols-3">
             {/* Col 1 */}
@@ -541,7 +550,7 @@ function App() {
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-3">
             {/* Col 1 */}
-            <div className="grid grid-rows-4 px-5 xl:pl-48">
+            <div className="grid  px-5 xl:pl-48">
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white">Shfrytëzimi i alternativave të tjera për ngrohje, aty ku ka mundësi.</p>
@@ -561,8 +570,8 @@ function App() {
                 <div className="hidden xl:flex"></div>
             </div>
             {/* Col 2 */}
-            <div className="grid grid-rows-3 px-5 w-auto xl:w-96 mx-auto">
-                <div className="hidden xl:flex"></div>
+            <div className="grid px-5 w-auto xl:w-96 mx-auto">
+                <div className="hidden xl:flex h-5"></div>
                 <div className="">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                   <p className="dark:text-white">Ndaleni për së paku dy orë ngrohjen me energji elektrike gjatë ditës</p>
@@ -577,12 +586,12 @@ function App() {
                 </div>
             </div>
             <div className="grid content-start">
-              <div className="w-96">
+              <div className="w-96 px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white">Përdorimi i pajisjeve elektro-shtëpiake në kohën kur energjia është më e lirë (pas ores 10).</p>
               </div>
               <div className="h-16 hidden xl:flex"></div>
-              <div className="w-96">
+              <div className="w-96 px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white">Ndalja e furnizimit pajisjeve që nuk ka nevojë të përdoren në kohë të caktuara, duke filluar nga dritat.</p>
               </div>
@@ -677,8 +686,8 @@ function App() {
               <div className=""></div>
             </div>
             {/* Col 2 */}
-            <div className="grid w-auto xl:w-96 content-end mx-auto">
-              <div className="hidden xl:flex h-24"></div>
+            <div className="grid w-auto xl:w-96 content-start mx-auto">
+              <div className="hidden xl:flex h-20"></div>
               <div className="px-5">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white">Dhoma e mbyllur siç duhet ndihmon kondicionerin të përdorë më pak energji</p>
@@ -721,7 +730,7 @@ function App() {
               <h2 onClick={() => wordMixer()} className="text-2xl font-bold dark:text-white">
                 {
                   darkMode ?
-                    <h2>{randomWord}</h2>
+                    <h2>Kurse Rrymë!</h2>
                   :
                     <h2>Fike Dritën</h2>
                 }
