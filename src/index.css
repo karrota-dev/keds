@@ -14,3 +14,7 @@ body {
 .navbar {
     backdrop-filter: blur(2px);
 }
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}

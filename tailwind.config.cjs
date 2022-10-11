@@ -15,6 +15,9 @@ module.exports = {
       'secondary': '#707070',
       'accent': '#EF5B37',
     },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+    },
     extend: {
       backgroundImage: {
         'outlet-illustration': "url('./src/assets/outlet-1.png')",
