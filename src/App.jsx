@@ -172,11 +172,11 @@ function App() {
           </div>
         </div>
         {/* Savings Tips */}
-        <div className="container mx-auto py-5">
-          <h1 className="p-2 text-5xl flex flex-col items-center md:text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
+        <div className="flex justify-center md:justify-start md:pl-40 py-5">
+          <h1 className="p-2 text-5xl flex flex-col items-center md:items-start md:text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
         </div>
         {/* Home */}
-        <div ref={homeRef} className="home pt-20">
+        <div ref={homeRef} className="home py-20">
           
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
             {/* Col 1 */}
@@ -459,13 +459,12 @@ function App() {
         </div>
         <img src={RadiatorIllustration} alt="" />
         {/* Video One */}
-        <div className="py-16 vid-one h-screen">
-          <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
-            <div className="flex justify-end items-center">
+        <div className="py-16 vid-one h-screen flex flex-row justify-center items-center">
+          <div className="container mx-auto flex flex-row justify-center items-center content-center p-5 lg:p-0">
+            <div className="flex flex-row justify-center items-center justify-items-center itemsce">
+              <a href="https://youtube.com" className="">
                 <img src={videoOne} alt="Video One" />
-            </div>
-            <div className="">
-                      
+              </a>
             </div>
           </div>
         </div>
@@ -663,13 +662,12 @@ function App() {
         </div>
         <img className="" src={ForkIllustration} alt="" />
         {/* Video Two */}
-        <div className="py-16 vid-two">
-          <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
-            <div className="">
-                      
-            </div>
-            <div className="flex justify-start items-center">
+        <div className="py-16 vid-two h-screen flex flex-row justify-center items-center">
+          <div className="container mx-auto flex flex-row justify-center items-center content-center p-5 lg:p-0">
+            <div className="flex flex-row justify-center items-center justify-items-center itemsce">
+              <a href="https://youtube.com" className="">
                 <img src={videoOne} alt="Video One" />
+              </a>
             </div>
           </div>
         </div>

@@ -73,6 +73,12 @@ body {
     background-position: center;
 }
 
+.vid-two {
+    background-image: url('./assets/vid-two.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (max-width: 479px) {
     .home {
         background:none;
