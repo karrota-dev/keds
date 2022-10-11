@@ -18,3 +18,84 @@ body {
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+.home {
+    background-image: url('./assets/home-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hotel {
+    background-image: url('./assets/hotel-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mall {
+    background-image: url('./assets/mall-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gastronomy {
+    background-image: url('./assets/gastronomy-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.institution {
+    background-image: url('./assets/institutions-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.housekeeping {
+    background-image: url('./assets/housekeeping-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shop {
+    background-image: url('./assets/shop-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.industry {
+    background-image: url('./assets/industry-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 479px) {
+    .home {
+        background:none;
+    }
+    .hotel {
+        background: none;
+    }
+    
+    .mall {
+        background: none;
+    }
+    
+    .gastronomy {
+        background: none;
+    }
+    
+    .institution {
+        background: none;
+    }
+    
+    .housekeeping {
+        background: none;
+    }
+    
+    .shop {
+        background: none;
+    }
+    
+    .industry {
+        background: none;
+    }
+}

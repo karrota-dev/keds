@@ -174,7 +174,7 @@ function App() {
           <h1 className="p-2 text-5xl flex flex-col items-center md:text-[5rem] font-bold dark:text-white">Këshilla <span className="text-accent">Kursimi</span></h1>
         </div>
         {/* Home */}
-        <div ref={homeRef} className="py-20">
+        <div ref={homeRef} className="home">
           
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
             {/* Col 1 */}
@@ -457,7 +457,7 @@ function App() {
         </div>
         <img src={RadiatorIllustration} alt="" />
         {/* Video One */}
-        <div className=" py-20">
+        <div className="py-20 vid">
           <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
             <div className="flex justify-end items-center">
                 <img src={videoOne} alt="Video One" />
@@ -468,7 +468,7 @@ function App() {
           </div>
         </div>
         {/* Hotel */}
-        <div ref={hotelRef} className=" py-20">
+        <div ref={hotelRef} className="py-20 hotel">
           <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-center xl:text-right  text-accent">Sektori i <br/>Hotelerisë</h2>
           </div>
@@ -533,7 +533,7 @@ function App() {
         </div>
         <img src={LineIllustration} alt="" />
         {/* Malls */}
-        <div ref={mallRef} className=" py-20">
+        <div ref={mallRef} className="py-20 mall">
           <div className="grid grid-cols-1 xl:grid-cols-3">
             {/* Col 1 */}
             <div className="">
@@ -586,7 +586,7 @@ function App() {
         </div>
         <img src={BulbIllustration} alt="" />
         {/* Gastronomy */}
-        <div ref={gastronomyRef} className=" py-20">
+        <div ref={gastronomyRef} className="py-20 gastronomy">
           {/* <div className="flex justify-end container mx-auto">
             <h2 className="text-[5rem] font-bold text-accent">Gastronomia</h2>
           </div> */}
@@ -650,7 +650,7 @@ function App() {
         </div>
         <img className="" src={ForkIllustration} alt="" />
         {/* Video Two */}
-        <div className=" py-20">
+        <div className="py-20 vid-two">
           <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
             <div className="">
                       
@@ -661,7 +661,7 @@ function App() {
           </div>
         </div>
         {/* Institutions */}
-        <div ref={institutionRef} className=" py-20">
+        <div ref={institutionRef} className="py-20 institution">
           <div className="xl:pl-48">
             <h2 className="text-5xl flex justify-center xl:justify-start xl:text-[5rem] text-center md:text-left font-bold text-accent">Kompanitë dhe <br/>Institucionet</h2>
           </div> 
@@ -704,7 +704,7 @@ function App() {
         </div>
         <img className="" src={PuzzleIllustration} alt="" />
         {/* HouseKeeping */}
-        <div ref={housekeepingRef} className="py-20">
+        <div ref={housekeepingRef} className="py-20 housekeeping">
           <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-left xl:text-right  text-accent">Amviseria</h2>
           </div>
@@ -777,7 +777,7 @@ function App() {
           }
         </div>
         {/* Corner Shops */}
-        <div ref={shopRef} className=" pt-20">
+        <div ref={shopRef} className="pt-20 shop">
           <div className="xl:pl-48">
             <h2 className="text-5xl flex xl:justify-start justify-center xl:text-right xl:text-[5rem] font-bold text-accent">Dyqanet <br/>e Vogla</h2>
           </div>
@@ -825,7 +825,7 @@ function App() {
         </div>
         <img src={LightIllustration} alt="" />
         {/* Industries */}
-        <div ref={industryRef} className=" py-20">
+        <div ref={industryRef} className="py-20 industry">
           <div className="flex justify-center xl:justify-end xl:pr-48">
             <h2 className="text-5xl xl:text-[5rem] font-bold text-left xl:text-right  text-accent">Industrise</h2>
           </div>
