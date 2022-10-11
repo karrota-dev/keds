@@ -22,7 +22,10 @@ import clickIcon from './assets/click-icon.png';
 import ad from './assets/ad.png';
 import adDark from './assets/ad-dark.png';
 
-// import OutletIllustration from './assets/outlet-1.png';
+import OutletIllustration from './assets/outlet-illustration.png';
+import PuzzleIllustration from './assets/puzzle-illustration.png';
+import LineIllustration from './assets/line-illustration.png';
+import ForkIllustration from './assets/fork-illustration.png';
 import BulbIllustration from './assets/bulb-illustration.png';
 
 import videoOne from './assets/img-1.jpg';
@@ -123,7 +126,7 @@ function App() {
         <div className="relative flex justify-center">
         <div className="p-1 absolute ">
           <div className={isNavOpen ? 'flex justify-center text-center' : 'hidden'}>
-            <div className="w-auto md:w-96 p-5 bg-bg-primary dark:bg-black dark:bg-opacity-90 rounded-3xl bg-opacity-80 bg-clip-padding navbar">
+            <div className="w-auto md:w-96 p-5 bg-bg-primary dark:bg-bg-dark dark:bg-opacity-90 rounded-3xl bg-opacity-80 bg-clip-padding navbar">
               <div className="">
                 <h2 onClick={() => {
                   homeScroll(),
@@ -459,6 +462,7 @@ function App() {
             </div>
           </div>
         </div>
+        <img src={LineIllustration} alt="" />
         {/* Malls */}
         <div ref={mallRef} className=" py-20" style={{backgroundImage: `url(${BulbIllustration})`}}>
           <div className="grid grid-cols-1 xl:grid-cols-3">
@@ -563,6 +567,7 @@ function App() {
             </div>
           </div>
         </div>
+        <img className="" src={ForkIllustration} alt="" />
         {/* Video Two */}
         <div className=" py-20">
           <div className="container mx-auto grid grid-cols-1 p-5 lg:p-0 lg:grid-cols-2">
@@ -616,6 +621,7 @@ function App() {
             </div>
           </div>
         </div>
+        <img className="" src={PuzzleIllustration} alt="" />
         {/* HouseKeeping */}
         <div ref={housekeepingRef} className="py-20">
           <div className="flex justify-center xl:justify-end xl:pr-48">
@@ -689,7 +695,7 @@ function App() {
           }
         </div>
         {/* Corner Shops */}
-        <div ref={shopRef} className=" py-20">
+        <div ref={shopRef} className=" pt-20">
           <div className="xl:pl-48">
             <h2 className="text-5xl flex xl:justify-start justify-center xl:text-right xl:text-[5rem] font-bold text-accent">Dyqanet <br/>e Vogla</h2>
           </div>
@@ -785,7 +791,7 @@ function App() {
             </div>
             {/* Col 3 */}
             <div className="">
-              <div className="grid  md:grid-rows-4">
+              <div className="grid content-start">
                 <div className="px-5 xl:pr-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                   <p className="dark:text-white">Kontrollimi i ndriçimit përmes sensorëve të lëvizjes (tualete dhe zona të tjera që nuk përdoren tërë kohën. <br/><br/>#industri #këshillakursimi</p>
@@ -794,6 +800,7 @@ function App() {
             </div>
           </div>
         </div>
+        <img className="" src={OutletIllustration} alt="" />
         {/* Light Switch */}
         <div className="bottom-0 sticky">
           <div className="w-72 flex flex-row justify-start items-center dark:bg-bg-dark dark:bg-opacity-90  bg-white bg-opacity-90 bg-clip-border rounded-r-3xl navbar">
@@ -860,7 +867,7 @@ function App() {
                   <h2 className="p-2 text-3xl font-semibold text-white">Kompania Kosovare për Distribuim të Energjisë Elektrike KEDS sh.a.</h2>
                 </div>
                 <div className="flex justify-end">
-                  <img className="w-48" src={mascotPeek} alt="" />
+                  <img className="w-60" src={mascotPeek} alt="" />
                 </div>
               </div>
             </div>
