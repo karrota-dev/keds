@@ -14,6 +14,8 @@ module.exports = {
       'primary': "#000000",
       'secondary': '#707070',
       'accent': '#EF5B37',
+      'title-blue': '#1E4593',
+      'text-blue': '#132F67'
     },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
