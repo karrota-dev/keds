@@ -914,7 +914,7 @@ function App() {
           </div>
         </div>
         {/* Footer */}
-        <div className="bg-accent">
+        <div className="bg-accent footer">
           <div className="container mx-auto">
             <div className="grid px-5 grid-cols-1 xl:p-0 lg:grid-cols-3 ">
               <div className="grid py-10">
@@ -950,11 +950,12 @@ function App() {
                 </div>
               </div>
               <div className="grid pt-10">
-                <div className="">
+                <div className="flex items-start justify-center">
                   <h2 className="p-2 text-3xl font-semibold text-white">Kompania Kosovare për Distribuim të Energjisë Elektrike KEDS sh.a.</h2>
                 </div>
-                <div className="flex justify-end">
-                  <img className="w-60" src={mascotPeek} alt="" />
+                <div className="flex items-start">
+                  <img className="p-1 w-48" src={KescoWhite} alt="KEDS Energy"/>
+                  <img className="p-1 w-32" src={LogoWhite} alt="" />
                 </div>
               </div>
             </div>

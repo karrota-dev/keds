@@ -79,6 +79,19 @@ body {
     background-position: center;
 }
 
+/* .footer {
+    background-image: radial-gradient(
+        farthest-corner at 50px 0px,
+        #1e429a 50%,
+        #EF5B37 100%
+    );
+    
+  } */
+
+.footer {
+    background: radial-gradient(circle at right bottom, #EF5B37 5%, #1e429a 25%)
+}
+
 @media only screen and (max-width: 479px) {
     .home {
         background:none;
