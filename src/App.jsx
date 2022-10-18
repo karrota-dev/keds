@@ -241,7 +241,7 @@ function App() {
         {/* Home */}
         <div ref={homeRef} className="home py-20">
           
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 xl:grid-cols-3">
             {/* Col 1 */}
             <div className="pr-5">
               <div className="flex justify-center py-5">
@@ -409,7 +409,7 @@ function App() {
             </div>
             {/* Col 3 */}
             {/* 04 */}
-            <div className="p-2 px-5 w-96 grid content-center">
+            <div className="p-2 px-5 w-96 grid content-center mx-auto">
               <div className={isGatimiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white text-text-blue">Ndaleni energjinë në furrë ose në pllakë të zierjes së paku 3-5 minuta më herët (para se ta largoni ushqimin nga pllaka ose furra).</p>
@@ -533,11 +533,11 @@ function App() {
                 </div>
               </div>
               <div className="px-5 md:p-0 mx-auto">
-                <div className="w-auto mx-auto md:w-96 lg:w-auto xl:pl-48">
+                <div className="w-auto mx-auto md:w-96 xl:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white text-text-blue">Në përputhje me rrethanat, shmangni ndriçimin elektrik dhe përdorni atë natyral.</p>
                 </div>
-                <div className="w-auto mx-auto md:w-96 lg:w-auto xl:pl-48">
+                <div className="w-auto mx-auto md:w-96 xl:w-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                   <p className="dark:text-white text-text-blue">Sipas mundësisë shmangni ndriçimin dekorativ dhe përdorni vetëm ndriçimin e nevojshëm për hapësirën tuaj.</p>
                 </div>  
@@ -565,15 +565,15 @@ function App() {
             </div>
             {/* Col 3 */}
             <div className="grid content-center">
-              <div className="mx-auto md:w-96 lg:w-auto xl:pr-48">
+              <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white text-text-blue">Fikni dritat ne salla të cilat nuk frekuentohen shumë nga njerëzit.</p>
               </div>
-              <div className="mx-auto md:w-96 lg:w-auto xl:pr-48">
+              <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">08</h1>
                 <p className="dark:text-white text-text-blue">Kondicioneri mund të harxhojë shumë energji në ditët kur temperatura është mesatare. Fikni atë, kur nuk është i nevojshëm.</p>
               </div>
-              <div className="mx-auto md:w-96 lg:w-auto xl:pr-48">
+              <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">09</h1>
                 <p className="dark:text-white text-text-blue">Si masë afatgjate mund të jetë: •Instalimi i sistemeve diellore për ngrohjen e ujit</p>
               </div>
@@ -598,15 +598,15 @@ function App() {
             </div>
             {/* Col 2 */}
             <div className="px-5">
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                 <p className="dark:text-white text-text-blue">Minimizoni apo fikni dritat dekoruese dhe reklamuese, pasi që ndriçimi i shumtë reklamues që kanë qendrat tregtare është shpenzues mjaft i madh i energjisë elektrike.</p>
               </div>
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                 <p className="dark:text-white text-text-blue">Përdorni drita LED, sepse ato janë efiçiente.</p>
               </div>
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                 <p className="dark:text-white text-text-blue">Konsideroni instalimin e dyerve automatike ose rrotulluese. Lënia e derës së përparme gjerësisht e hapur do t'u lejojë klientëve qasje dhe dalje të shpejtë nga ndërtesa, por në të njëjtën kohë edhe humbje të freskisë apo nxehtësisë.</p>
               </div>
@@ -617,15 +617,15 @@ function App() {
             </div>
             {/* Col 3 */}
             <div className="px-5 xl:pr-48 grid content-center">
-              <div className="">
-              <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
+                <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white text-text-blue">Programoni ftohjen të mos fillojë derisa temperatura e brendshme të kalojë 24° apo ngrohja gjatë dimrit të akordohet nga 18-21 °C</p>
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
                 <p className="dark:text-white text-text-blue">Nëse keni mundësi instaloni sensorë të lëvizjes për të ndezur dhe fikur dritat në hapësirat që nuk janë në përdorim të vazhdueshëm (p.sh dhomat e provës, zona për punëtorë, etj.).</p>
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white text-text-blue">Nëse është e mundur, ftohja të fiket një orë para përfundimit të punës.</p>
               </div>
@@ -654,7 +654,7 @@ function App() {
                 </div>
               </div>
               <div className="px-5 md:p-0 mx-auto">
-                <div className="w-auto mx-auto md:w-auto xl:pl-48">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white text-text-blue">Fikni disa nga poçat dekorues, që nuk do të ndikonin në uljen e ndriçimit të nevojshëm të ambientit.</p>
                 </div>
@@ -666,31 +666,31 @@ function App() {
               <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                 <p className="dark:text-white">Nëse nuk keni alternativë të ngrohjes (përpos me energji elektrike) për ditët e ftohta, akordoni temostatin në atë mënyrë që ambienti të jetë i rehatshëm, por jo i ftohtë. Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 19 gradë.</p>
               </div> */}
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                 <p className="dark:text-white text-text-blue">Gjatë natës mos harroni ta fikni ndriçimin dhe të gjitha pajsijet e tjera shpenzuese.</p>
               </div> 
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                 <p className="dark:text-white text-text-blue">Nëse nuk keni alternativë të ngrohjes (përpos me energji elektrike) për ditët e ftohta, akordoni temostatin në atë mënyrë që ambienti të jetë i rehatshëm, por jo i ftohtë. Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 19 gradë.</p>
               </div>
-              <div className="w-auto xl:w-96 mx-auto">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white text-text-blue">Akordoni termostatin e kondicionerit në 24 gradë celcius, që konsiderohet të jetë temperaturë efiçiente.</p>
               </div>
               
             </div>
-            <div className="grid content-start xl:grid-rows-3">
+            <div className="px-5 grid content-start xl:grid-rows-3">
               <div className="hidden md:flex"></div>
-              <div className="px-5 xl:pr-48">
+              <div className="xl:pr-48 w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
                 <p className="dark:text-white text-text-blue">Gjatë ditës ndalni ngrohjen tërësisht për disa orë. Kjo nuk do të ndikoj aq shumë në ndryshimin e temperaturës së rehatshme të hapësirave, por kursimi në anën tjetër do të jetë i madh.</p>
               </div>
-              <div className="px-5 xl:pr-48">
+              <div className="xl:pr-48 w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white text-text-blue">Parandaloni ngrohjen e hapësirave të caktuara, aty ku nuk ka nevojë, duke vendosur në kaldajën qendrore një ndërprerës kohor (wifi, digjital apo mekanik).</p>
               </div>
-              <div className="px-5 xl:pr-48">
+              <div className="xl:pr-48 w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white text-text-blue">Ndërsa si masa afatgjate, ju mund t’i: - Zëvendësoni poçat tradicional me ata efiçient - Zëvendësoni pajisjet elektrike jo-efiçente me pajisje efiçiente, etj.</p>
               </div>
@@ -731,22 +731,22 @@ function App() {
             <div className="px-5 w-auto xl:w-96 grid mx-auto">
               <div className="h-32 hidden xl:flex">
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                 <p className="dark:text-white text-text-blue">Meqenëse po i afrohemi stinëve të ftohta, duhet pasur parasysh që ngrohja me energji elektrike përbën rreth 70% të faturës mujore. Nga kjo kuptohet se shpenzuesi më i madh i energjisë është ngrohja. Andaj, nëse është e mundur siguroni mundësi alternative të ngrohjes, sepse mosngrohja me energji elektrike do ta ndihmonte shumë sistemin.</p>
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                 <p className="dark:text-white text-text-blue">Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 18 deri më 21 gradë, andaj gjatë ditës ngrohja mund të ndalet për disa orë.</p>
               </div>
             </div>
             {/* Col 3 */}
             <div className="px-5 w-auto xl:w-96 content-start">
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                 <p className="dark:text-white text-text-blue">Kur përdorimi i energjisë elektrike në ndërtesa publike është i panevojshëm pas përfundimit të punës, ne rekomandojmë që të bëhet shkyçja e të gjitha objekteve, përveç aty ku cenohet siguria.</p>
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                 <p className="dark:text-white text-text-blue">Në përfundim të orarit të punës aty ku është e mundur, të ndërpritet energjia elektrike në mënyrë automatike apo të bëhet shkyçje përmes paisjeve të mençura. Në kohë krize çdo kilovat i kursyer është i vlefshëm, andaj të fillojmë nga sot, t’i ndalim pajisjet që nuk i përdorim dhe të kursejmë në mënyrë maksimale.</p>
               </div>
@@ -777,11 +777,11 @@ function App() {
                 <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
               </div>
               <div className="px-5 xl:pl-48">
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white text-text-blue">Rregulloni termostatin për t'iu përshtatur sezonës. Rregullimi i teromostatit të ftohjes, për një ose dy shkallë më lart, mund të sjell kursime të mëdha të energjisë elektrike.</p>
                 </div>
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                   <p className="dark:text-white text-text-blue">Reduktoni përdorimin e ujit të nxehtë që ngrohet me energji elektrike.</p>
                 </div>
@@ -790,22 +790,22 @@ function App() {
             {/* Col 2 */}
               <div className="px-5 w-96 grid mx-auto">
                 <div className="h-32 hidden xl:flex"></div>
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                   <p className="dark:text-white text-text-blue">Minimizoni apo fikni dritat dekoruese dhe reklamuese, pasi që ndriçimi i shumtë reklamues në dyqane është shpenzues mjaft i madh i energjisë elektrike.</p>
                 </div>
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                   <p className="dark:text-white text-text-blue">Pastroni shpesh poçat elektrik nga pluhuri. Poçat e vjetër dhe grumbullimi i pluhurit në sipërfaqen e tyre mund të zvogëlojnë ndriçimin total deri në 50%.</p>
                 </div>
             </div>
             {/* Col 3 */}
             <div className="px-5 xl:pr-48 grid content-start">
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
                 <p className="dark:text-white text-text-blue">Fikni dritat në ato hapësira që nuk përdoren. Përdorni lllamba efiçiente, pra llamba LED.</p>
               </div>
-              <div className="">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white text-text-blue">Largoni spinën e pajisjeve elektronike nga priza. Disa paisje ende konsumojnë energji elektrike në sasi të vogël kur janë të kyçur në prizë.</p>
               </div>
@@ -841,7 +841,7 @@ function App() {
                 </div>
               </div>
               <div className="md:p-0 px-5 mx-auto">
-                <div className="w-auto mx-auto md:w-auto xl:pl-48">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto xl:pl-48">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white text-text-blue">Pastrimi i rregullt dhe mirëmbajtja e planifikuar e makinerive optimizon performancën dhe jetëgjatësinë e këtyre makinerive dhe mund të përkthehet në kursime të mëdha të energjisë</p>
                 </div>
@@ -853,15 +853,15 @@ function App() {
             </div>
             {/* Col 2 */}
             <div className="grid px-5 w-auto xl:w-96 mx-auto">
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
                   <p className="dark:text-white text-text-blue">Një mënyrë tjetër e thjeshtë është të siguroheni që të gjitha makineritë dhe pajisjet të fiken kur nuk përdoren. Përdorimi i pajisjeve vetëm kur ju nevojiten, mund të rezultojë në kursime të konsiderueshme të kostos së energjisë elektrike;</p>
                 </div> 
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
                   <p className="dark:text-white text-text-blue">Sistemet e ftohjes mund të shpenzojnë mjaft shumë energji elektrike, andaj duhet të siguroheni që kondicioneri juaj të aranzhohet në opsion optimal dhe jo më shumë se që është e nevojshme</p>
                 </div>
-                <div className="">
+                <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
                   <p className="dark:text-white text-text-blue">Dhoma e mbyllur siç duhet ndihmon kondicionerin të përdorë më pak energji</p>
                 </div>
@@ -870,17 +870,17 @@ function App() {
                   <p className="dark:text-white text-text-blue">Kujdesi në ngrohësin e ujit (bojlerin) dhe kohën kur ai përdoret. Preferohet të ngrohet gjatë natës, me tarifë të ulët, apo gjatë ditës vetem kur është i nevojshëm përdorimi i ujit të ngrohtë. Potencialisht zëvendësimi i tij me ngrohës diellor.</p>
                 </div> */}
             </div>
-            <div className="grid content-start">
-              <div className="w-96 px-5">
+            <div className="grid content-start px-5">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
                 <p className="dark:text-white text-text-blue">Zëvendësimi i një motori të vjetër me fuqi të lartë, me një motor me fuqi më të ulët dhe efikas është një mënyrë e shkëlqyer për të ulur kostot. Ka shumë industri që përdorin motorë të vjetër, të cilët duhet të zëvendësohen në mënyrë që të kursehet sa më shumë energji elektrike.</p>
               </div>
-              <div className="w-96 px-5">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white text-text-blue">Zëvendësimin i poçave tradicional me poça LED me fuqi të ulët</p>
               </div>
               <div className="h-16 hidden xl:flex"></div>
-              <div className="w-96 px-5">
+              <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white text-text-blue">Kontrollimi i ndriçimit përmes sensorëve të lëvizjes (tualete dhe zona të tjera që nuk përdoren tërë kohën. <br/><br/>#industri #këshillakursimi</p>
               </div>
@@ -916,7 +916,7 @@ function App() {
         {/* Footer */}
         <div className="bg-accent footer">
           <div className="container mx-auto">
-            <div className="grid px-5 grid-cols-1 xl:p-0 lg:grid-cols-3 ">
+            <div className="grid px-5 grid-cols-1 xl:p-0 lg:grid-cols-3">
               <div className="grid py-10">
                 <div className="">
                   <p className="p-2 text-base font-light text-white">Për cdo infromatë në lidhje me rrjetin <br/>elektrik na kontaktoni në numrin pa pagesë:</p>
