@@ -136,7 +136,7 @@ function App() {
                 <div className="p-2">
                   {
                     darkMode ?
-                      <img src={KescoWhite} className="w-24" alt="KEDS Energy"/>
+                      <img src={KescoWhite} className="w-36" alt="KEDS Energy"/>
                     :
                       <img src={Kesco} className="w-36" alt="KEDS Energy"/>
                   }
