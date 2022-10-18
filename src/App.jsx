@@ -564,7 +564,7 @@ function App() {
               
             </div>
             {/* Col 3 */}
-            <div className="grid content-center">
+            <div className="grid content-center px-5">
               <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
                 <p className="dark:text-white text-text-blue">Fikni dritat në salla që nuk frekuentohen shumë nga njerëzit.</p>
@@ -788,7 +788,7 @@ function App() {
               </div>
             </div>
             {/* Col 2 */}
-              <div className="px-5 w-96 grid mx-auto">
+              <div className="w-96 grid mx-auto">
                 <div className="h-32 hidden xl:flex"></div>
                 <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
