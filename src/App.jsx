@@ -222,7 +222,7 @@ function App() {
             <div className="flex flex-col justify-center items-start">
               <h1 className="p-2 text-[5rem] font-bold leading-tight text-title-blue dark:text-white">Thirrje për <br/><span className="text-accent">Kursim</span></h1>
               <p className="p-2 text-xl text-accent">#tëkursejmëkrejtbashkë</p>
-              <p className="p-2 text-lg text-left dark:text-secondary text-text-blue">Kjo faqe ka për qëllim të ndajë me ju mënyrat më të thjeshta dhe më efikase për kursimin e energjisë elektrike; mënyra të cilat mund t'i aplikojmë në shtëpi, ambient pune apo kudo që ndodhemi. Duke ndjekur këto këshilla, ne zvogëlojmë dukshëm konsumin e energjisë elektrike, ulim faturën mujore, si dhe kontribuojmë jashtëzakonisht shumë që gjatë dimrit të ketë energji për të gjithë.</p>
+              <p className="p-2 text-lg text-left dark:text-secondary text-text-blue">Kjo faqe ka për qëllim të ndajë me ju mënyrat më të thjeshta dhe më efikase për kursimin e energjisë elektrike, të cilat mund t'i aplikojmë në shtëpi, ambient pune apo kudo që ndodhemi. Duke ndjekur këto këshilla, ne zvogëlojmë dukshëm konsumin e energjisë elektrike, ulim faturën mujore, si dhe kontribuojmë jashtëzakonisht shumë që gjatë dimrit të ketë energji për të gjithë.</p>
             </div>
             <div className="hidden lg:flex justify-center items-start">
               {
