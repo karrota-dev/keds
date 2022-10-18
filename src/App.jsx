@@ -222,7 +222,7 @@ function App() {
             <div className="flex flex-col justify-center items-start">
               <h1 className="p-2 text-[5rem] font-bold leading-tight text-title-blue dark:text-white">Thirrje për <br/><span className="text-accent">Kursim</span></h1>
               <p className="p-2 text-xl text-accent">#tëkursejmëkrejtbashkë</p>
-              <p className="p-2 text-lg text-left dark:text-secondary text-text-blue">Kjo faqe ka për qëllim të ndajë me ju mënyrat më të thjeshta dhe efikase për të kursyer energji elektrike, që mund t'i aplikojmë në shtëpi, ambient pune apo kudo që ndodhemi. Duke ndjekur këto këshilla, ne zvogëlojmë dukshëm konsumin e energjisë elektrike, ulim faturën mujore, si dhe kontribuojmë jashtëzakonisht shumë që gjatë dimrit të ketë energji për të gjithë.</p>
+              <p className="p-2 text-lg text-left dark:text-secondary text-text-blue">Kjo faqe ka për qëllim të ndajë me ju mënyrat më të thjeshta dhe më efikase për kursimin e energjisë elektrike; mënyra të cilat mund t'i aplikojmë në shtëpi, ambient pune apo kudo që ndodhemi. Duke ndjekur këto këshilla, ne zvogëlojmë dukshëm konsumin e energjisë elektrike, ulim faturën mujore, si dhe kontribuojmë jashtëzakonisht shumë që gjatë dimrit të ketë energji për të gjithë.</p>
             </div>
             <div className="hidden lg:flex justify-center items-start">
               {
@@ -317,12 +317,12 @@ function App() {
                 </div>
                 {/* Col 2 */}
                 <div className="py-2 px-5 md:px-0">
-                  <p className={`dark:text-white ${isNgrohjaOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Ngrohja me energji elektrike ngarkon tej mase sistemin elektroenergjetik, meqë dihet që prodhimi vendor nuk e mbulon kërkesën për energji gjatë dimrit, dhe për shkak të krizës globale energjetike, çmimet e importit janë të papërballueshme. <br/><br/>Gjetja e një burimi tjetër për ngrohje është thelbësore këtë dimër, sepse në vend që një sasi e madhe e energjisë elektrike të shkojë për ngrohje, ajo do të kursehet dhe do të jetë e bollshme për t’u ndarë proporcionalisht për të gjithë konsumatorët. <br/><br/>Në rastet kur nuk keni alternativë tjetër për ngrohje përveç energjisë elektrike, ju lusim t’i zbatoni këto mënyra të kursimit të energjisë si më poshtë, të cilat dukshëm do t’ju ndihmojnë t’i ulni faturat tuaja të energjisë elektrike dhe, në këmbim do ta ndihmojnë gjendjen e ngarkuar të sistemit elektroenergjetik:</p>
+                  <p className={`dark:text-white ${isNgrohjaOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Ngrohja me energji elektrike ngarkon tej mase sistemin elektroenergjetik, pasi dihet se prodhimi vendor nuk e mbulon kërkesën për energji gjatë dimrit. Po ashtu, për shkak të krizës globale energjetike, çmimet e importit janë të papërballueshme. <br/><br/>Gjetja e një burimi tjetër për ngrohje është thelbësore këtë dimër, sepse në vend që një sasi e madhe e energjisë elektrike të shkojë për ngrohje, ajo do të kursehet dhe do të jetë e bollshme për t’u ndarë proporcionalisht për të gjithë konsumatorët. <br/><br/>Në rastet kur nuk keni alternativë tjetër për ngrohje përveç energjisë elektrike, ju lusim t’i zbatoni këto mënyra të kursimit të energjisë si më poshtë, të cilat dukshëm do t’ju ndihmojnë t’i ulni faturat tuaja të energjisë elektrike dhe, në këmbim do ta ndihmojnë gjendjen e ngarkuar të sistemit elektroenergjetik:</p>
                   <p className={`dark:text-white ${isBojleriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Pjesa më e madhe e faturës suaj mujore shkon për ngrohjen e ujit me bojler gjatë tërë vitit, pa llogaritur ngrohjen e ambienteve të brendshme. <br/><br/>Për të minimizuar një konsum kaq të lartë të bojlerit, më poshtë po listojmë disa këshilla që ndikojnë në uljen e shpenzimeve të ngrohjes së ujit në bojler. <br/><br/>Paraprakisht, po ua rikujtojmë se miti që bojleri shpenzon më pak rrymë kur është i ndezur gjatë gjithë kohës, nuk qëndron. E vërteta është se bojleri shpenzon më pak rrymë nëse ndizet vetëm sipas nevojës:</p>
-                  <p className={`dark:text-white ${isGatimiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Një pjesë mjaft e madhe e shumës totale të faturës tuaj mujore shkon për përgatitjen e ushqimit në shtëpi, duke filluar nga furra elektrike e deri te pllakat e shporetit elektrik. Ndërsa, mikrovala apo pajisjet e tjera të thjeshta për ngrohjen e ushqimit apo ujit nuk shpenzojnë shumë energji elektrike. Disa praktika të mira për ta ulur konsumin e energjisë elektrike gjatë përgatitjes së ushqimit në shtëpi, janë këto që po radhisim në vijim:</p>
-                  <p className={`dark:text-white ${isFrigoriferiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Edhe frigoriferi di të jetë një shpenzues mjaft i madh i energjisë elektrike, meqë është në funksion tërë kohën, madje shpesh ndodh që një shtëpi të këtë frigorifer dhe ngrirës, pra dy pajisje për ta mbajtur ushqimin të freskët dhe rrjedhimisht të ftohtë.</p>
-                  <p className={`dark:text-white ${isKondicioneriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Kondicionerët zakonisht përdoren për të mbajtur një temperaturë të përshtatshme në dhomë gjatë muajve të nxehtë të verës. Se sa energji elektrike konsumon një kondicioner, natyrisht varet  nga kapaciteti që e ka si dhe koha që qëndron i ndezur.</p>
-                  <p className={`dark:text-white ${isPajisjeOpen ? 'text-text-blue dark:text-white flex flex-col' : 'hidden'}`}>Rol jashtëzakonisht të madh në kursimin apo shpenzimin e energjisë elektrike në shtëpitë tona, luajnë pajisjet që i përdorim gjatë ditës, siç janë enëlarëset, rrobalarëset, makinat për pastrimin  e shtëpisë, hekuri për hekurosje, etj. Më poshtë gjeni disa këshilla të thjeshta të përdorimit të pajisjeve shtëpiake, që na ndihmojnë të kursejmë energji elektrike, nëse i aplikojmë ato rregullisht në rutinën tonë. <br/><br/>Ju sugjerojmë që të përkujdeseni për përdorimin e këtyre pajisjeve dhe <span className="text-accent">#krejtbashkë</span> për të mirën e përgjithshme ta kursejmë energjinë elektrike.</p>
+                  <p className={`dark:text-white ${isGatimiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Një pjesë mjaft e madhe e shumës totale të faturës tuaj mujore shkon për përgatitjen e ushqimit në shtëpi, duke filluar nga furra elektrike e deri te pllakat e shporetit elektrik. Ndërsa, mikrovala apo pajisjet e tjera të thjeshta për ngrohjen e ushqimit apo ujit nuk shpenzojnë shumë energji elektrike. Disa praktika të mira për ta ulur konsumin e energjisë elektrike gjatë përgatitjes së ushqimit në shtëpi janë këto që po radhisim në vijim:</p>
+                  <p className={`dark:text-white ${isFrigoriferiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Edhe frigoriferi di të jetë një shpenzues mjaft i madh i energjisë elektrike, meqë është në funksion gjatë gjithë kohës, madje shpesh ndodh që një shtëpi të këtë frigorifer dhe ngrirës, pra dy pajisje për ta mbajtur ushqimin të freskët dhe rrjedhimisht të ftohtë.</p>
+                  <p className={`dark:text-white ${isKondicioneriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Kondicionerët zakonisht përdoren për të mbajtur një temperaturë të përshtatshme në dhomë gjatë muajve të nxehtë të verës. Se sa energji elektrike konsumon një kondicioner, natyrisht varet nga kapaciteti që e ka si dhe koha që qëndron i ndezur.</p>
+                  <p className={`dark:text-white ${isPajisjeOpen ? 'text-text-blue dark:text-white flex flex-col' : 'hidden'}`}>Rol jashtëzakonisht të madh në kursimin apo shpenzimin e energjisë elektrike në shtëpitë tona, luajnë pajisjet që i përdorim gjatë ditës, siç janë enëlarëset, rrobalarëset, makinat për pastrimin  e shtëpisë, hekuri për hekurosje, etj. Më poshtë do të gjeni disa këshilla të thjeshta të përdorimit të pajisjeve shtëpiake, që na ndihmojnë të kursejmë energji elektrike, nëse i aplikojmë ato rregullisht në rutinën tonë. <br/><br/>Ju sugjerojmë që të kujdeseni për përdorimin e këtyre pajisjeve dhe #krejtbashkë, për të mirën e përgjithshme, ta kursejmë energjinë elektrike.</p>
                   
                 </div>
               </div>
@@ -436,7 +436,7 @@ function App() {
               </div>
               <div className={isKondicioneriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                <p className="dark:text-white text-text-blue">Mbylleni derën e dhomës siç duhet, ngase kjo ndihmon kondicionerin të përdorë më pak energji.</p>
+                <p className="dark:text-white text-text-blue">Mbyllni derën e dhomës siç duhet, ngase kjo ndihmon kondicionerin të përdorë më pak energji.</p>
               </div>
               {/* <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
@@ -445,7 +445,7 @@ function App() {
               {/* 05 */}
               <div className={isNgrohjaOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Para se të flini, zvogëlojeni temperaturën e termostatit, sepse është më e shëndetshme dhe do të kurseni energji elektrike.</p>
+                <p className="dark:text-white text-text-blue">Para se të flini, zvogëloni temperaturën e termostatit, sepse është më e shëndetshme dhe do të kurseni energji elektrike.</p>
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
@@ -469,7 +469,7 @@ function App() {
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Kurdo që keni mundësi, përdorini pajisjet elektrike  kur energjia elektrike është më e lirë, pas orës 22:00 gjatë dimrit.</p>
+                <p className="dark:text-white text-text-blue">Kurdo që keni mundësi, përdorni pajisjet elektrike  kur energjia elektrike është më e lirë, pas orës 22:00 gjatë dimrit.</p>
               </div>
               {/* 06 */}
               <div className={isNgrohjaOpen ? 'content' : 'hidden'}>
@@ -653,8 +653,8 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="px-5 md:p-0 mx-auto">
-                <div className="w-auto md:w-96 xl:w-auto mx-auto">
+              <div className="md:p-0 mx-auto ">
+                <div className="px-5 w-auto md:w-96 pl-16 mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
                   <p className="dark:text-white text-text-blue">Fikni disa nga poçet dekorues që nuk do të ndikonin në uljen e ndriçimit të nevojshëm të ambientit.</p>
                 </div>
