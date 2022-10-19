@@ -514,7 +514,7 @@ function App() {
                 <div className=""></div>
                 <div className=""></div>
                 <div className="order-1">
-                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pr-28">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pr-28">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                   <p className="xl:pr-48 py-5 px-5 xl:text-right flex justify-center text-lg text-secondary">Hoteleria ofron një mundësi të jashtëzakonshme për ulje të konsumit, nëse veprohet me hapa konkret dhe të vazhdueshëm drejt ruajtjes të energjisë. <br/>Disa nga këta hapa janë:</p>
                 </div>
           </div> */}
@@ -527,7 +527,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent text-title-blue dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent text-title-blue dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Industria e hotelerisë ofron një mundësi të jashtëzakonshme për uljen e konsumit dhe ruajtjen e energjisë nëse veprohet me hapa konkretë dhe të vazhdueshëm. <br/>Disa nga këta hapa janë:</p>
                   </div>
                 </div>
@@ -555,7 +555,7 @@ function App() {
               </div>
               <div className="w-auto md:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Sipas mundësisë, instaloni drita LED në të gjithë hotelin, sepse ato përdorin shumë më pak energji se llambat tradicionale inkandeshente dhe zgjasin më shumë.</p>
+                <p className="dark:text-white text-text-blue">Sipas mundësisë, instaloni drita LED në të gjithë hotelin, sepse ato përdorin shumë më pak energji se sa llambat tradicionale inkandeshente dhe zgjasin më shumë.</p>
               </div>
               <div className="w-auto md:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
@@ -567,7 +567,7 @@ function App() {
             <div className="grid content-center px-5">
               <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
-                <p className="dark:text-white text-text-blue">Fikni dritat në salla që nuk frekuentohen shumë nga njerëzit.</p>
+                <p className="dark:text-white text-text-blue">Fikni dritat në sallat që nuk frekuentohen shumë nga njerëzit.</p>
               </div>
               <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">08</h1>
@@ -575,7 +575,7 @@ function App() {
               </div>
               <div className="mx-auto md:w-96 xl:w-auto xl:pr-48">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">09</h1>
-                <p className="dark:text-white text-text-blue">Si masë afatgjate mund të jetë: <br/><br/>Instalimi i sistemeve diellore për ngrohjen e ujit</p>
+                <p className="dark:text-white text-text-blue">Si masë afatgjate mund të jetë instalimi i sistemeve diellore për ngrohjen e ujit.</p>
               </div>
             </div>
           </div>
@@ -591,7 +591,7 @@ function App() {
               </div>
               <div className="">
                 <div className="">
-                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                   <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Dyqanet e mëdha me shumëllojshmëri dritash dekorative, reklama të shumta, klima dhe pajisje të tjera konsumojnë mjaft shumë energji,  e cila mund të kursehet shumë lehtë nëse stafi i çdo dyqani informohet për mënyrat e kursimit të energjisë elektrike dhe më pastaj inkurajohet për aplikimin e tyre. <br/><br/>Ja disa nga këto këshilla që mund t'i aplikoni lehtë:</p>
                 </div>
               </div>
@@ -608,7 +608,7 @@ function App() {
               </div>
               <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
-                <p className="dark:text-white text-text-blue">Konsideroni instalimin e dyerve automatike ose rrotulluese. Lënia e derës së përparme gjerësisht e hapur do t'u lejojë klientëve qasje dhe dalje të shpejtë nga ndërtesa, por në të njëjtën kohë edhe humbje të freskisë apo nxehtësisë. </p>
+                <p className="dark:text-white text-text-blue">Konsideroni instalimin e dyerve automatike ose rrotulluese. Lënia e derës së përparme gjerësisht e hapur do t'ju lejojë klientëve qasje dhe dalje të shpejtë nga ndërtesa, por në të njëjtën kohë edhe humbje të freskisë apo nxehtësisë. </p>
               </div>
               {/* <div className="w-auto xl:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
@@ -623,7 +623,7 @@ function App() {
               </div>
               <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Nëse keni mundësi instaloni sensorë të lëvizjes për të ndezur dhe fikur dritat në hapësirat që nuk janë në përdorim të vazhdueshëm (p.sh dhomat e provës, zona për punëtorë, etj.).</p>
+                <p className="dark:text-white text-text-blue">Nëse keni mundësi, instaloni sensorë të lëvizjes për të ndezur dhe fikur dritat në hapësirat që nuk janë në përdorim të vazhdueshëm (p.sh dhomat e provës, zona për punëtorë, etj.).</p>
               </div>
               <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
@@ -648,8 +648,8 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
-                    <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Ndër shpenzuesit më të mëdhenj të energjisë elektrike në restorante është përgatitja e ushqimit, ftohja dhe ngrohja e ambientit. Ne mund të veprojmë me hapa të vegjël SOT që të ndihmojmë sadopak në përmirësimin e gjendjes elektroenergjetike të vendit për muajt e vështirë që do të vijnë me ftohjen e motit. <br/><br/>Filloni t'i aplikoni këto ndryshime në rutinën tuaj ditore:</p>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
+                    <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Ndër shpenzuesit më të mëdhenj të energjisë elektrike në restorante është përgatitja e ushqimit, ftohja dhe ngrohja e ambientit. Ne mund të veprojmë me hapa të vegjël SOT që të ndihmojmë sadopak në përmirësimin e gjendjes elektroenergjetike të vendit për muajt e vështirë në vijim ndërsa moti ftohet. <br/><br/>Filloni t'i aplikoni këto ndryshime në rutinën tuaj ditore:</p>
                   </div>
                 </div>
               </div>
@@ -688,11 +688,11 @@ function App() {
               </div>
               <div className="xl:pr-48 w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
-                <p className="dark:text-white text-text-blue">Parandaloni ngrohjen e hapësirave të caktuara, aty ku nuk ka nevojë, duke vendosur në kaldajën qendrore një ndërprerës kohor (wifi, digjital apo mekanik).</p>
+                <p className="dark:text-white text-text-blue">Parandaloni ngrohjen e hapësirave të caktuara aty ku nuk ka nevojë, duke vendosur në kaldajën qendrore një ndërprerës kohor (wifi, dixhital apo mekanik).</p>
               </div>
               <div className="xl:pr-48 w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
-                <p className="dark:text-white text-text-blue">Ndërsa si masa afatgjate, ju mund t’i: <br/><br/>- Zëvendësoni poçat tradicional me ata efiçient <br/><br/>- Zëvendësoni pajisjet elektrike jo-efiçente me pajisje efiçiente, etj.</p>
+                <p className="dark:text-white text-text-blue">Ndërsa si masa afatgjate, ju mund t’i: <br/><br/>- Zëvendësoni poçet tradicionalë me ata efiçientë; <br/><br/>- Zëvendësoni pajisjet elektrike joefiçente me pajisje efiçiente, etj.</p>
               </div>
             </div>
           </div>
@@ -723,7 +723,7 @@ function App() {
                 <h2 className="text-[5rem] font-bold text-accent leading-tight pl-48">Kompanitë dhe <br/>Institucionet</h2>
               </div> */}
               <div className="">
-                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                 <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Aq sa është e rëndësishme të kemi furnizim me energji elektrike, po aq jetik është edhe kursimi i energjisë elektrike. Për kursim sa më të madh të energjisë elektrike, ndihmesë të madhe paraqet bashkëpunimi me të gjitha institucionet publike, kompanitë private, bankat, hoteleritë dhe të gjitha kategoritë e tjera. Që kursimi i energjisë elektrike të jetë sa më lehtë i aplikueshëm dhe praktik, ne kemi disa rekomandime nga ekspertët tanë. </p>
               </div>
             </div>
@@ -737,7 +737,7 @@ function App() {
               </div>
               <div className="w-auto md:w-96 xl:w-auto mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                <p className="dark:text-white text-text-blue">Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 18 deri më 21 gradë, andaj gjatë ditës ngrohja mund të ndalet për disa orë.</p>
+                <p className="dark:text-white text-text-blue">Temperatura e rehatshme e dhomës gjatë dimrit parashihet të jetë 18 deri në 21 gradë, andaj gjatë ditës ngrohja mund të ndalet për disa orë.</p>
               </div>
             </div>
             {/* Col 3 */}
@@ -774,12 +774,12 @@ function App() {
             {/* Col 1 */}
             <div className="">
               <div className="">
-                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
               </div>
               <div className="px-5 xl:pl-48">
                 <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                  <p className="dark:text-white text-text-blue">Rregulloni termostatin për t'iu përshtatur sezonit. Rregullimi i termostatit të ftohjes, për një ose dy shkallë më lart mund të sjellë kursime të mëdha të energjisë elektrike. </p>
+                  <p className="dark:text-white text-text-blue">Rregulloni termostatin për t'iu përshtatur stinës. Rregullimi i termostatit të ftohjes, për një ose dy shkallë më lart mund të sjellë kursime të mëdha të energjisë elektrike. </p>
                 </div>
                 <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
@@ -796,7 +796,7 @@ function App() {
                 </div>
                 <div className="w-auto md:w-96 xl:w-auto mx-auto">
                   <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                  <p className="dark:text-white text-text-blue">Pastroni shpesh poçet elektrik nga pluhuri. Poçet e vjetër dhe grumbullimi i pluhurit në sipërfaqen e tyre mund të zvogëlojnë ndriçimin total deri në 50%.</p>
+                  <p className="dark:text-white text-text-blue">Pastroni shpesh poçet elektrike nga pluhuri. Poçet e vjetra dhe grumbullimi i pluhurit në sipërfaqen e tyre mund të zvogëlojë ndriçimin total deri në 50%.</p>
                 </div>
             </div>
             {/* Col 3 */}
@@ -822,7 +822,7 @@ function App() {
                 <div className=""></div>
                 <div className=""></div>
                 <div className="order-1">
-                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pr-28">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                  <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white flex justify-center py-5 xl:pr-28">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                   <p className="xl:pr-48 py-5 px-5 xl:text-right flex justify-center text-lg text-secondary">Amvisëria si një ndër shpenzuesit më të mëdhenj të energjisë elektrike mund të kontribuojë shumë në uljen e konsumit, sidomos aty ku ka mundësi të madhe të kursimit. Nëse çdo konsumator kursen energji elektrike për vete dhe familjen e tij, ne në fakt jemi duke kursyer energji edhe për konsumatorët e grupeve të ndjeshme, të cilëve mund të ju nevojitet energjia elektrike më shumë se kurrë. Sipas ekspertëve të KEDS, këto janë disa nga masat që konsumatorët shtëpiak duhet t’i ndërmarrin për ta kursyer energjinë elektrike: Ditëve në vijim do ju përcjellim udhëzime për kursim edhe për kategori kategori të tjera!</p>
                 </div>
           </div> */}
@@ -831,11 +831,11 @@ function App() {
             <div className="">
               <div className="">
                 <div className="flex justify-center xl:justify-start xl:pl-48">
-                  <h2 className="text-5xl md:text-[5rem] font-bold text-accent">Industrise</h2>
+                  <h2 className="text-5xl md:text-[5rem] font-bold text-accent">Industrisë</h2>
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent dark:text-white text-title-blue flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE?</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Me teknikat e duhura të kursimit të energjisë, sektori industrial që përdor një sasi të madhe të energjisë së ofruar në botë mund të kursejë energji elektrike nëse aplikohen shembujt e mëposhtëm: </p>
                   </div>
                 </div>
@@ -919,14 +919,14 @@ function App() {
             <div className="grid px-5 grid-cols-1 xl:p-0 lg:grid-cols-3">
               <div className="grid py-10">
                 <div className="">
-                  <p className="p-2 text-base font-light text-white">Për cdo infromatë në lidhje me rrjetin <br/>elektrik na kontaktoni në numrin pa pagesë:</p>
+                  <p className="p-2 text-base font-light text-white">Për çdo infromatë në lidhje me rrjetin <br/>elektrik na kontaktoni në numrin pa pagesë:</p>
                   <div className="p-2 flex flex-row justify-start items-center">
                     <img className="w-10" src={phoneIcon} alt="Phone" />
                     <h2 className="pl-5 text-2xl font-semibold text-white">0800 791-00</h2>
                   </div>
                 </div>
                 <div className="">
-                  <p className="p-2 text-base font-light text-white">Për cdo Kërkesë në lidhje me rrjetin elektrik <br/>na shkruani në email adresën:</p>
+                  <p className="p-2 text-base font-light text-white">Për çdo kërkesë në lidhje me rrjetin elektrik <br/>na shkruani në email adresën:</p>
                   <div className="p-2 flex flex-row justify-start items-center">
                     <img className="w-10" src={mailIcon} alt="e-Mail" />
                     <h2 className="pl-5 text-2xl font-semibold text-white">info@keds-energy.com</h2>
@@ -951,7 +951,7 @@ function App() {
               </div>
               <div className="grid pt-10">
                 <div className="flex items-start justify-center">
-                  <h2 className="p-2 text-3xl font-semibold text-white">Kompania Kosovare për Distribuim të Energjisë Elektrike KEDS sh.a.</h2>
+                  <h2 className="p-2 text-3xl font-semibold text-white">Kompania Kosovare për Distribuim të Energjisë Elektrike - KEDS sh.a.</h2>
                 </div>
                 <div className="flex items-start">
                   <img className="p-1 w-48" src={KescoWhite} alt="KEDS Energy"/>
