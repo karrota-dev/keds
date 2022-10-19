@@ -831,7 +831,7 @@ function App() {
             <div className="">
               <div className="">
                 <div className="flex justify-center xl:justify-start xl:pl-48">
-                  <h2 className="text-5xl md:text-[5rem] font-bold text-accent">Industrisë</h2>
+                  <h2 className="text-5xl md:text-[5rem] font-bold text-accent">Industria</h2>
                 </div>
                 <div className="">
                   <div className="">
@@ -871,18 +871,18 @@ function App() {
                 </div> */}
             </div>
             <div className="grid content-start px-5">
-              <div className="w-auto md:w-96 xl:w-auto mx-auto">
+              <div className="w-auto md:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
                 <p className="dark:text-white text-text-blue">Zëvendësimi i një motori të vjetër me fuqi të lartë me një motor me fuqi më të ulët dhe më efikas është një mënyrë e shkëlqyer për të ulur kostot. Ka shumë industri që përdorin motorë të vjetër, të cilët duhet të zëvendësohen në mënyrë që të kursehet sa më shumë energji elektrike.</p>
               </div>
-              <div className="w-auto md:w-96 xl:w-auto mx-auto">
+              <div className="w-auto md:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
                 <p className="dark:text-white text-text-blue">Zëvendësimin i poçeve tradicional me poçe LED me fuqi të ulët.</p>
               </div>
               <div className="h-16 hidden xl:flex"></div>
-              <div className="w-auto md:w-96 xl:w-auto mx-auto">
+              <div className="w-auto md:w-96 mx-auto">
                 <h1 className="p-1 text-[5rem] font-medium text-accent">07</h1>
-                <p className="dark:text-white text-text-blue">Kontrollimi i ndriçimit përmes sensorëve të lëvizjes (tualete dhe zona të tjera që nuk përdoren tërë kohën. <br/><br/>#industri #këshillakursimi</p>
+                <p className="dark:text-white text-text-blue">Kontrollimi i ndriçimit përmes sensorëve të lëvizjes (tualete dhe zona të tjera që nuk përdoren tërë kohën). <br/><br/>#industri #këshillakursimi</p>
               </div>
             </div>
           </div>
