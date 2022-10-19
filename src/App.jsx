@@ -116,7 +116,7 @@ function App() {
                 }
                 {
                   darkMode ?
-                    <img className="px-2 w-24" src={LogoWhite} alt="KEDS Energy"/>
+                    <img className="px-2 w-32" src={LogoWhite} alt="KEDS Energy"/>
                   :
                     <img className="px-2 w-24" src={Logo} alt="KEDS Energy"/>
                 }
@@ -318,11 +318,11 @@ function App() {
                 {/* Col 2 */}
                 <div className="py-2 px-5 md:px-0">
                   <p className={`dark:text-white ${isNgrohjaOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Ngrohja me energji elektrike ngarkon tej mase sistemin elektroenergjetik, pasi dihet se prodhimi vendor nuk e mbulon kërkesën për energji gjatë dimrit. Po ashtu, për shkak të krizës globale energjetike, çmimet e importit janë të papërballueshme. <br/><br/>Gjetja e një burimi tjetër për ngrohje është thelbësore këtë dimër, sepse në vend që një sasi e madhe e energjisë elektrike të shkojë për ngrohje, ajo do të kursehet dhe do të jetë e bollshme për t’u ndarë proporcionalisht për të gjithë konsumatorët. <br/><br/>Në rastet kur nuk keni alternativë tjetër për ngrohje përveç energjisë elektrike, ju lusim t’i zbatoni këto mënyra të kursimit të energjisë si më poshtë, të cilat dukshëm do t’ju ndihmojnë t’i ulni faturat tuaja të energjisë elektrike dhe, në këmbim do ta ndihmojnë gjendjen e ngarkuar të sistemit elektroenergjetik:</p>
-                  <p className={`dark:text-white ${isBojleriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Pjesa më e madhe e faturës suaj mujore shkon për ngrohjen e ujit me bojler gjatë tërë vitit, pa llogaritur ngrohjen e ambienteve të brendshme. <br/><br/>Për të minimizuar një konsum kaq të lartë të bojlerit, më poshtë po listojmë disa këshilla që ndikojnë në uljen e shpenzimeve të ngrohjes së ujit në bojler. <br/><br/>Paraprakisht, po ua rikujtojmë se miti që bojleri shpenzon më pak rrymë kur është i ndezur gjatë gjithë kohës, nuk qëndron. E vërteta është se bojleri shpenzon më pak rrymë nëse ndizet vetëm sipas nevojës:</p>
+                  <p className={`dark:text-white ${isBojleriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Pjesa më e madhe e faturës suaj mujore shkon për ngrohjen e ujit me bojler, pa llogaritur ngrohjen e ambienteve të brendshme. <br/><br/>Për të minimizuar një konsum kaq të lartë të bojlerit, më poshtë po listojmë disa këshilla që ndikojnë në uljen e shpenzimeve të ngrohjes së ujit në bojler. <br/><br/>Paraprakisht, po ua rikujtojmë se miti që bojleri shpenzon më pak rrymë kur është i ndezur gjatë gjithë kohës, nuk qëndron. E vërteta është se bojleri shpenzon më pak rrymë nëse ndizet vetëm sipas nevojës:</p>
                   <p className={`dark:text-white ${isGatimiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Një pjesë mjaft e madhe e shumës totale të faturës tuaj mujore shkon për përgatitjen e ushqimit në shtëpi, duke filluar nga furra elektrike e deri te pllakat e shporetit elektrik. Ndërsa, mikrovala apo pajisjet e tjera të thjeshta për ngrohjen e ushqimit apo ujit nuk shpenzojnë shumë energji elektrike. Disa praktika të mira për ta ulur konsumin e energjisë elektrike gjatë përgatitjes së ushqimit në shtëpi janë këto që po radhisim në vijim:</p>
                   <p className={`dark:text-white ${isFrigoriferiOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Edhe frigoriferi di të jetë një shpenzues mjaft i madh i energjisë elektrike, meqë është në funksion gjatë gjithë kohës, madje shpesh ndodh që një shtëpi të këtë frigorifer dhe ngrirës, pra dy pajisje për ta mbajtur ushqimin të freskët dhe rrjedhimisht të ftohtë.</p>
                   <p className={`dark:text-white ${isKondicioneriOpen ? 'text-text-blue dark:text-white flex' : 'hidden'}`}>Kondicionerët zakonisht përdoren për të mbajtur një temperaturë të përshtatshme në dhomë gjatë muajve të nxehtë të verës. Se sa energji elektrike konsumon një kondicioner, natyrisht varet nga kapaciteti që e ka si dhe koha që qëndron i ndezur.</p>
-                  <p className={`dark:text-white ${isPajisjeOpen ? 'text-text-blue dark:text-white flex flex-col' : 'hidden'}`}>Rol jashtëzakonisht të madh në kursimin apo shpenzimin e energjisë elektrike në shtëpitë tona, luajnë pajisjet që i përdorim gjatë ditës, siç janë enëlarëset, rrobalarëset, makinat për pastrimin  e shtëpisë, hekuri për hekurosje, etj. Më poshtë do të gjeni disa këshilla të thjeshta të përdorimit të pajisjeve shtëpiake, që na ndihmojnë të kursejmë energji elektrike, nëse i aplikojmë ato rregullisht në rutinën tonë. <br/><br/>Ju sugjerojmë që të kujdeseni për përdorimin e këtyre pajisjeve dhe #krejtbashkë, për të mirën e përgjithshme, ta kursejmë energjinë elektrike.</p>
+                  <p className={`dark:text-white ${isPajisjeOpen ? 'text-text-blue dark:text-white flex flex-col' : 'hidden'}`}>Rol jashtëzakonisht të madh në kursimin apo shpenzimin e energjisë elektrike në shtëpitë tona luajnë pajisjet që i përdorim gjatë ditës, siç janë enëlarëset, rrobalarëset, makinat për pastrimin  e shtëpisë, hekuri për hekurosje, etj. Më poshtë do të gjeni disa këshilla të thjeshta të përdorimit të pajisjeve shtëpiake, të cilat na ndihmojnë të kursejmë energji elektrike nëse i aplikojmë ato rregullisht në rutinën tonë. <br/><br/>Ju sugjerojmë që të kujdeseni për përdorimin e këtyre pajisjeve dhe <span className="text-accent">#krejtbashkë</span>për të mirën e përgjithshme, le ta kursejmë energjinë elektrike.</p>
                   
                 </div>
               </div>
@@ -338,15 +338,15 @@ function App() {
               </div>
               <div className={isBojleriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                <p className="dark:text-white text-text-blue">Mundohuni ta mbani bojlerin të fikur gjatë ditës ose së paku të zvogëloni kohën gjatë së cilës bojleri qëndron i ndezur.</p>
+                <p className="dark:text-white text-text-blue">Mundohuni ta mbani bojlerin të fikur gjatë ditës, ose së paku të zvogëloni kohën gjatë së cilës bojleri qëndron i ndezur.</p>
               </div>
               <div className={isGatimiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                <p className="dark:text-white text-text-blue">Përdorni gazin natyror si burim energjie për gatim, atëherë kur keni mundësi.</p>
+                <p className="dark:text-white text-text-blue">Përdorni gazin natyror si burim energjie për gatim kur të keni mundësi.</p>
               </div>
               <div className={isFrigoriferiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
-                <p className="dark:text-white text-text-blue">Zvogëlojeni nivelin e ftohjes në nivel optimal, për shembull nga niveli 4 në nivelin 1 ose në nivelin 2. Kjo do të kursejë 20-30 % të energjisë së shpenzuar më parë nga frigoriferi.</p>
+                <p className="dark:text-white text-text-blue">Zvogëloni nivelin e ftohjes në nivel optimal, për shembull nga niveli 4 në nivelin 1 ose në nivelin 2. Kjo do të kursejë 20-30 % të energjisë së shpenzuar më parë nga frigoriferi.</p>
               </div>
               <div className={isKondicioneriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">01</h1>
@@ -371,11 +371,11 @@ function App() {
               </div>
               <div className={isFrigoriferiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                <p className="dark:text-white text-text-blue">Hapeni derën e frigoriferit vetëm kur është e nevojshme që të mos largohet i ftohti nga pajisja elektrike.</p>
+                <p className="dark:text-white text-text-blue">Hapni derën e frigoriferit vetëm kur është e nevojshme që të mos largohet i ftohti nga pajisja elektrike.</p>
               </div>
               <div className={isKondicioneriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                <p className="dark:text-white text-text-blue">Kondicioneri mund të harxhojë shumë energji në ditët kur temperatura është mesatare. Fikeni atë kur nuk është i nevojshëm.</p>
+                <p className="dark:text-white text-text-blue">Kondicioneri mund të harxhojë shumë energji në ditët kur temperatura është mesatare. Fikni atë kur nuk është i nevojshëm.</p>
               </div>
               {/* 03 */}
               <div className={isNgrohjaOpen ? 'content' : 'hidden'}>
@@ -396,11 +396,11 @@ function App() {
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">02</h1>
-                <p className="dark:text-white text-text-blue">Përdorini programet më efiçiente që këto pajisje ofrojnë, kështu kurseni më shumë energji elektrike. Jo çdo herë duhet të zgjedhim programet më të gjata dhe me temperaturat më të larta. </p>
+                <p className="dark:text-white text-text-blue">Përdorni programet më efiçiente që këto pajisje ofrojnë, kështu kurseni më shumë energji elektrike. Jo çdo herë duhet të zgjedhim programet më të gjata dhe me temperaturat më të larta. </p>
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
-                <p className="dark:text-white text-text-blue">Fikini dritat në hapësirat ku nuk kanë nevojë për ndriçim.</p>
+                <p className="dark:text-white text-text-blue">Fikni dritat në hapësirat ku nuk kanë nevojë për ndriçim.</p>
               </div>
               <div className={isFrigoriferiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">03</h1>
@@ -412,11 +412,11 @@ function App() {
             <div className="p-2 px-5 w-96 grid content-center mx-auto">
               <div className={isGatimiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                <p className="dark:text-white text-text-blue">Vendosni kapakun në tenxhere në mënyrë që përmbajtja të gatuhet ose të zihet më shpejt, duke përdorur më pak energji.</p>
+                <p className="dark:text-white text-text-blue">Vendosni kapakun në tenxhere në mënyrë që përmbajtja të gatuhet ose të zihet më shpejt, sepse kështu shpenzohet më pak energji.</p>
               </div>
               <div className={isNgrohjaOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                <p className="dark:text-white text-text-blue">Mbani dyert e dhomës ose të zyrës suaj sa më shumë mbyllur për të ruajtur nxehtësinë.</p>
+                <p className="dark:text-white text-text-blue">Mbani dyert e dhomës së gjumit ose të zyrës të mbyllura sa më shumë që të jetë e mundur për të ruajtur nxehtësinë.</p>
               </div>
               <div className={isBojleriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
@@ -449,7 +449,7 @@ function App() {
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">04</h1>
-                <p className="dark:text-white text-text-blue">Hiqini nga priza pajisjet elektronike gjatë kohës kur nuk janë në përdorim.</p>
+                <p className="dark:text-white text-text-blue">Hiqni nga priza pajisjet elektronike gjatë kohës kur nuk janë në përdorim.</p>
               </div>
               <div className={isBojleriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
@@ -461,15 +461,15 @@ function App() {
               </div>
               <div className={isFrigoriferiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Mos lejoni të formohet trashësi e akullit në frigorifer dhe ngrirës, shkrini dhe pastroni ato, sepse do të jenë më efektiv dhe më ekonomik.</p>
+                <p className="dark:text-white text-text-blue">Mos lejoni të formohet trashësi e akullit në frigorifer dhe ngrirës, shkrini dhe pastroni atë, sepse do të jetë më efektive dhe më ekonomike.</p>
               </div>
               <div className={isKondicioneriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Kujdesuni  që kondicioneri juaj të aranzhohet në opsion optimal dhe jo më shumë se që është e nevojshme.</p>
+                <p className="dark:text-white text-text-blue">Kujdesuni  që kondicioneri juaj të aranzhohet në opsion optimal dhe jo më shumë se sa që është e nevojshme.</p>
               </div>
               <div className={isPajisjeOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">05</h1>
-                <p className="dark:text-white text-text-blue">Kurdo që keni mundësi, përdorni pajisjet elektrike  kur energjia elektrike është më e lirë, pas orës 22:00 gjatë dimrit.</p>
+                <p className="dark:text-white text-text-blue">Kurdo që keni mundësi, përdorni pajisjet elektrike  kur energjia elektrike është më e lirë (pas orës 22:00 gjatë dimrit).</p>
               </div>
               {/* 06 */}
               <div className={isNgrohjaOpen ? 'content' : 'hidden'}>
@@ -478,15 +478,15 @@ function App() {
               </div>
               <div className={isGatimiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
-                <p className="dark:text-white text-text-blue">Hapeni derën e furrës vetëm kur është e nevojshme që të mos largohet nxehtësia nga pajisja elektrike.</p>
+                <p className="dark:text-white text-text-blue">Hapni derën e furrës vetëm kur është e nevojshme që të mos largohet nxehtësia nga pajisja elektrike.</p>
               </div>
               <div className={isKondicioneriOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
-                <p className="dark:text-white text-text-blue">Rregulloni termostatin për t'iu përshtatur sezonit. Rregullimi i termostatit të ftohjes, për një ose dy shkallë më lart, mund të sjellë kursime të mëdha të energjisë elektrike.</p>
+                <p className="dark:text-white text-text-blue">Rregulloni termostatin për t'iu përshtatur sezonit. Rregullimi i termostatit të ftohjes për një ose dy shkallë më lart mund të sjellë kursime të mëdha të energjisë elektrike.</p>
               </div>
               <div className={isFrigoriferiOpen ? 'content' : 'hidden'}>
                 <h1 className="p-1 text-[5rem] font-medium text-accent">06</h1>
-                <p className="dark:text-white text-text-blue">Mbajeni frigoriferin larg pajisjeve që lirojnë nxehtësi, mbajeni atë në vendin më të ftohtë në shtëpi, kështu kujdeseni që temperaturat e ulëta të qëndrojnë vazhdimisht të tilla.</p>
+                <p className="dark:text-white text-text-blue">Mbani frigoriferin larg pajisjeve që lirojnë nxehtësi, mbani atë në vendin më të ftohtë në shtëpi, kështu kujdeseni që temperaturat e ulëta të qëndrojnë vazhdimisht të tilla.</p>
               </div>
             </div>
           </div>
@@ -527,7 +527,7 @@ function App() {
                 </div>
                 <div className="">
                   <div className="">
-                    <h2 className="text-xl font-bold border-b-4 border-accent text-title-blue dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE SEKTORI I HOLERERISË:</h2>
+                    <h2 className="text-xl font-bold border-b-4 border-accent text-title-blue dark:text-white flex justify-center py-5 p-0 xl:pl-32">SI TË KURSEJË ENERGJI ELEKTRIKE:</h2>
                     <p className="px-5 xl:pl-48 py-5 text-left text-lg dark:text-secondary text-text-blue">Industria e hotelerisë ofron një mundësi të jashtëzakonshme për uljen e konsumit dhe ruajtjen e energjisë nëse veprohet me hapa konkretë dhe të vazhdueshëm. <br/>Disa nga këta hapa janë:</p>
                   </div>
                 </div>
